@@ -1,0 +1,751 @@
+alpha,k,curve,verdict
+0.01,1,Phillips Curve,NOT_SIGNIFICANT
+0.01,2,Phillips Curve,NOT_SIGNIFICANT
+0.01,3,Phillips Curve,NOT_SIGNIFICANT
+0.01,4,Phillips Curve,NOT_SIGNIFICANT
+0.01,5,Phillips Curve,NOT_SIGNIFICANT
+0.05,1,Phillips Curve,NOT_SIGNIFICANT
+0.05,2,Phillips Curve,NOT_SIGNIFICANT
+0.05,3,Phillips Curve,NOT_SIGNIFICANT
+0.05,4,Phillips Curve,NOT_SIGNIFICANT
+0.05,5,Phillips Curve,NOT_SIGNIFICANT
+0.1,1,Phillips Curve,NOT_SIGNIFICANT
+0.1,2,Phillips Curve,NOT_SIGNIFICANT
+0.1,3,Phillips Curve,NOT_SIGNIFICANT
+0.1,4,Phillips Curve,NOT_SIGNIFICANT
+0.1,5,Phillips Curve,NOT_SIGNIFICANT
+0.01,1,Laffer Curve,NOT_SIGNIFICANT
+0.01,2,Laffer Curve,NOT_SIGNIFICANT
+0.01,3,Laffer Curve,NOT_SIGNIFICANT
+0.01,4,Laffer Curve,NOT_SIGNIFICANT
+0.01,5,Laffer Curve,NOT_SIGNIFICANT
+0.05,1,Laffer Curve,NOT_SIGNIFICANT
+0.05,2,Laffer Curve,NOT_SIGNIFICANT
+0.05,3,Laffer Curve,NOT_SIGNIFICANT
+0.05,4,Laffer Curve,NOT_SIGNIFICANT
+0.05,5,Laffer Curve,NOT_SIGNIFICANT
+0.1,1,Laffer Curve,ROBUST_NONLINEAR
+0.1,2,Laffer Curve,ROBUST_NONLINEAR
+0.1,3,Laffer Curve,ROBUST_NONLINEAR
+0.1,4,Laffer Curve,OUTLIER_DEPENDENT
+0.1,5,Laffer Curve,OUTLIER_DEPENDENT
+0.01,1,Kuznets Curve,NOT_SIGNIFICANT
+0.01,2,Kuznets Curve,NOT_SIGNIFICANT
+0.01,3,Kuznets Curve,NOT_SIGNIFICANT
+0.01,4,Kuznets Curve,NOT_SIGNIFICANT
+0.01,5,Kuznets Curve,NOT_SIGNIFICANT
+0.05,1,Kuznets Curve,NOT_SIGNIFICANT
+0.05,2,Kuznets Curve,NOT_SIGNIFICANT
+0.05,3,Kuznets Curve,NOT_SIGNIFICANT
+0.05,4,Kuznets Curve,NOT_SIGNIFICANT
+0.05,5,Kuznets Curve,NOT_SIGNIFICANT
+0.1,1,Kuznets Curve,NOT_SIGNIFICANT
+0.1,2,Kuznets Curve,NOT_SIGNIFICANT
+0.1,3,Kuznets Curve,NOT_SIGNIFICANT
+0.1,4,Kuznets Curve,NOT_SIGNIFICANT
+0.1,5,Kuznets Curve,NOT_SIGNIFICANT
+0.01,1,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.01,2,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.01,3,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.01,4,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.01,5,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.05,1,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.05,2,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.05,3,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.05,4,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.05,5,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.1,1,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.1,2,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.1,3,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.1,4,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.1,5,Environmental Kuznets Curve (CO2),NOT_SIGNIFICANT
+0.01,1,Beveridge Curve,NOT_SIGNIFICANT
+0.01,2,Beveridge Curve,NOT_SIGNIFICANT
+0.01,3,Beveridge Curve,NOT_SIGNIFICANT
+0.01,4,Beveridge Curve,NOT_SIGNIFICANT
+0.01,5,Beveridge Curve,NOT_SIGNIFICANT
+0.05,1,Beveridge Curve,NOT_SIGNIFICANT
+0.05,2,Beveridge Curve,NOT_SIGNIFICANT
+0.05,3,Beveridge Curve,NOT_SIGNIFICANT
+0.05,4,Beveridge Curve,NOT_SIGNIFICANT
+0.05,5,Beveridge Curve,NOT_SIGNIFICANT
+0.1,1,Beveridge Curve,OUTLIER_DEPENDENT
+0.1,2,Beveridge Curve,OUTLIER_DEPENDENT
+0.1,3,Beveridge Curve,ROBUST_NONLINEAR
+0.1,4,Beveridge Curve,ROBUST_NONLINEAR
+0.1,5,Beveridge Curve,ROBUST_NONLINEAR
+0.01,1,Okun's Law,OUTLIER_DEPENDENT
+0.01,2,Okun's Law,OUTLIER_DEPENDENT
+0.01,3,Okun's Law,OUTLIER_DEPENDENT
+0.01,4,Okun's Law,OUTLIER_DEPENDENT
+0.01,5,Okun's Law,OUTLIER_DEPENDENT
+0.05,1,Okun's Law,OUTLIER_DEPENDENT
+0.05,2,Okun's Law,OUTLIER_DEPENDENT
+0.05,3,Okun's Law,OUTLIER_DEPENDENT
+0.05,4,Okun's Law,OUTLIER_DEPENDENT
+0.05,5,Okun's Law,OUTLIER_DEPENDENT
+0.1,1,Okun's Law,OVERFITTING
+0.1,2,Okun's Law,OUTLIER_DEPENDENT
+0.1,3,Okun's Law,OUTLIER_DEPENDENT
+0.1,4,Okun's Law,OUTLIER_DEPENDENT
+0.1,5,Okun's Law,OUTLIER_DEPENDENT
+0.01,1,Engel Curve,ROBUST_NONLINEAR
+0.01,2,Engel Curve,ROBUST_NONLINEAR
+0.01,3,Engel Curve,ROBUST_NONLINEAR
+0.01,4,Engel Curve,ROBUST_NONLINEAR
+0.01,5,Engel Curve,ROBUST_NONLINEAR
+0.05,1,Engel Curve,ROBUST_NONLINEAR
+0.05,2,Engel Curve,ROBUST_NONLINEAR
+0.05,3,Engel Curve,ROBUST_NONLINEAR
+0.05,4,Engel Curve,ROBUST_NONLINEAR
+0.05,5,Engel Curve,ROBUST_NONLINEAR
+0.1,1,Engel Curve,ROBUST_NONLINEAR
+0.1,2,Engel Curve,ROBUST_NONLINEAR
+0.1,3,Engel Curve,ROBUST_NONLINEAR
+0.1,4,Engel Curve,ROBUST_NONLINEAR
+0.1,5,Engel Curve,ROBUST_NONLINEAR
+0.01,1,J-Curve (Trade),ROBUST_NONLINEAR
+0.01,2,J-Curve (Trade),ROBUST_NONLINEAR
+0.01,3,J-Curve (Trade),ROBUST_NONLINEAR
+0.01,4,J-Curve (Trade),ROBUST_NONLINEAR
+0.01,5,J-Curve (Trade),ROBUST_NONLINEAR
+0.05,1,J-Curve (Trade),ROBUST_NONLINEAR
+0.05,2,J-Curve (Trade),ROBUST_NONLINEAR
+0.05,3,J-Curve (Trade),ROBUST_NONLINEAR
+0.05,4,J-Curve (Trade),ROBUST_NONLINEAR
+0.05,5,J-Curve (Trade),ROBUST_NONLINEAR
+0.1,1,J-Curve (Trade),ROBUST_NONLINEAR
+0.1,2,J-Curve (Trade),ROBUST_NONLINEAR
+0.1,3,J-Curve (Trade),ROBUST_NONLINEAR
+0.1,4,J-Curve (Trade),ROBUST_NONLINEAR
+0.1,5,J-Curve (Trade),ROBUST_NONLINEAR
+0.01,1,Rahn Curve,NOT_SIGNIFICANT
+0.01,2,Rahn Curve,NOT_SIGNIFICANT
+0.01,3,Rahn Curve,NOT_SIGNIFICANT
+0.01,4,Rahn Curve,NOT_SIGNIFICANT
+0.01,5,Rahn Curve,NOT_SIGNIFICANT
+0.05,1,Rahn Curve,NOT_SIGNIFICANT
+0.05,2,Rahn Curve,NOT_SIGNIFICANT
+0.05,3,Rahn Curve,NOT_SIGNIFICANT
+0.05,4,Rahn Curve,NOT_SIGNIFICANT
+0.05,5,Rahn Curve,NOT_SIGNIFICANT
+0.1,1,Rahn Curve,OUTLIER_DEPENDENT
+0.1,2,Rahn Curve,OUTLIER_DEPENDENT
+0.1,3,Rahn Curve,OUTLIER_DEPENDENT
+0.1,4,Rahn Curve,OUTLIER_DEPENDENT
+0.1,5,Rahn Curve,OUTLIER_DEPENDENT
+0.01,1,Gravity Model of Trade,ROBUST_NONLINEAR
+0.01,2,Gravity Model of Trade,ROBUST_NONLINEAR
+0.01,3,Gravity Model of Trade,ROBUST_NONLINEAR
+0.01,4,Gravity Model of Trade,ROBUST_NONLINEAR
+0.01,5,Gravity Model of Trade,ROBUST_NONLINEAR
+0.05,1,Gravity Model of Trade,ROBUST_NONLINEAR
+0.05,2,Gravity Model of Trade,ROBUST_NONLINEAR
+0.05,3,Gravity Model of Trade,ROBUST_NONLINEAR
+0.05,4,Gravity Model of Trade,ROBUST_NONLINEAR
+0.05,5,Gravity Model of Trade,ROBUST_NONLINEAR
+0.1,1,Gravity Model of Trade,ROBUST_NONLINEAR
+0.1,2,Gravity Model of Trade,ROBUST_NONLINEAR
+0.1,3,Gravity Model of Trade,ROBUST_NONLINEAR
+0.1,4,Gravity Model of Trade,ROBUST_NONLINEAR
+0.1,5,Gravity Model of Trade,ROBUST_NONLINEAR
+0.01,1,Great Gatsby Curve,NOT_SIGNIFICANT
+0.01,2,Great Gatsby Curve,NOT_SIGNIFICANT
+0.01,3,Great Gatsby Curve,NOT_SIGNIFICANT
+0.01,4,Great Gatsby Curve,NOT_SIGNIFICANT
+0.01,5,Great Gatsby Curve,NOT_SIGNIFICANT
+0.05,1,Great Gatsby Curve,NOT_SIGNIFICANT
+0.05,2,Great Gatsby Curve,NOT_SIGNIFICANT
+0.05,3,Great Gatsby Curve,NOT_SIGNIFICANT
+0.05,4,Great Gatsby Curve,NOT_SIGNIFICANT
+0.05,5,Great Gatsby Curve,NOT_SIGNIFICANT
+0.1,1,Great Gatsby Curve,NOT_SIGNIFICANT
+0.1,2,Great Gatsby Curve,NOT_SIGNIFICANT
+0.1,3,Great Gatsby Curve,NOT_SIGNIFICANT
+0.1,4,Great Gatsby Curve,NOT_SIGNIFICANT
+0.1,5,Great Gatsby Curve,NOT_SIGNIFICANT
+0.01,1,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.01,2,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.01,3,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.01,4,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.01,5,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.05,1,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.05,2,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.05,3,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.05,4,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.05,5,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.1,1,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.1,2,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.1,3,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.1,4,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.1,5,Balassa-Samuelson Effect,NOT_SIGNIFICANT
+0.01,1,Preston Curve,NOT_SIGNIFICANT
+0.01,2,Preston Curve,NOT_SIGNIFICANT
+0.01,3,Preston Curve,NOT_SIGNIFICANT
+0.01,4,Preston Curve,NOT_SIGNIFICANT
+0.01,5,Preston Curve,NOT_SIGNIFICANT
+0.05,1,Preston Curve,NOT_SIGNIFICANT
+0.05,2,Preston Curve,NOT_SIGNIFICANT
+0.05,3,Preston Curve,NOT_SIGNIFICANT
+0.05,4,Preston Curve,NOT_SIGNIFICANT
+0.05,5,Preston Curve,NOT_SIGNIFICANT
+0.1,1,Preston Curve,NOT_SIGNIFICANT
+0.1,2,Preston Curve,NOT_SIGNIFICANT
+0.1,3,Preston Curve,NOT_SIGNIFICANT
+0.1,4,Preston Curve,NOT_SIGNIFICANT
+0.1,5,Preston Curve,NOT_SIGNIFICANT
+0.01,1,Easterlin Paradox,ROBUST_NONLINEAR
+0.01,2,Easterlin Paradox,ROBUST_NONLINEAR
+0.01,3,Easterlin Paradox,ROBUST_NONLINEAR
+0.01,4,Easterlin Paradox,ROBUST_NONLINEAR
+0.01,5,Easterlin Paradox,ROBUST_NONLINEAR
+0.05,1,Easterlin Paradox,ROBUST_NONLINEAR
+0.05,2,Easterlin Paradox,ROBUST_NONLINEAR
+0.05,3,Easterlin Paradox,ROBUST_NONLINEAR
+0.05,4,Easterlin Paradox,ROBUST_NONLINEAR
+0.05,5,Easterlin Paradox,ROBUST_NONLINEAR
+0.1,1,Easterlin Paradox,ROBUST_NONLINEAR
+0.1,2,Easterlin Paradox,ROBUST_NONLINEAR
+0.1,3,Easterlin Paradox,ROBUST_NONLINEAR
+0.1,4,Easterlin Paradox,ROBUST_NONLINEAR
+0.1,5,Easterlin Paradox,ROBUST_NONLINEAR
+0.01,1,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.01,2,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.01,3,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.01,4,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.01,5,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.05,1,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.05,2,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.05,3,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.05,4,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.05,5,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.1,1,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.1,2,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.1,3,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.1,4,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.1,5,McKeown Thesis (TB Mortality),NOT_SIGNIFICANT
+0.01,1,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.01,2,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.01,3,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.01,4,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.01,5,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.05,1,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.05,2,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.05,3,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.05,4,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.05,5,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.1,1,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.1,2,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.1,3,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.1,4,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.1,5,Linear No-Threshold (LNT),NOT_SIGNIFICANT
+0.01,1,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.01,2,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.01,3,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.01,4,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.01,5,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.05,1,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.05,2,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.05,3,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.05,4,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.05,5,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.1,1,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.1,2,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.1,3,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.1,4,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.1,5,Fries Compression of Morbidity,ROBUST_NONLINEAR
+0.01,1,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.01,2,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.01,3,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.01,4,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.01,5,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.05,1,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.05,2,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.05,3,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.05,4,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.05,5,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.1,1,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.1,2,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.1,3,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.1,4,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.1,5,Barker Hypothesis (U-shape),NOT_SIGNIFICANT
+0.01,1,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.01,2,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.01,3,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.01,4,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.01,5,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.05,1,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.05,2,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.05,3,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.05,4,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.05,5,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.1,1,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.1,2,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.1,3,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.1,4,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.1,5,Omran Epidemiological Transition,NOT_SIGNIFICANT
+0.01,1,Wilkinson Curve,NOT_SIGNIFICANT
+0.01,2,Wilkinson Curve,NOT_SIGNIFICANT
+0.01,3,Wilkinson Curve,NOT_SIGNIFICANT
+0.01,4,Wilkinson Curve,NOT_SIGNIFICANT
+0.01,5,Wilkinson Curve,NOT_SIGNIFICANT
+0.05,1,Wilkinson Curve,NOT_SIGNIFICANT
+0.05,2,Wilkinson Curve,NOT_SIGNIFICANT
+0.05,3,Wilkinson Curve,NOT_SIGNIFICANT
+0.05,4,Wilkinson Curve,NOT_SIGNIFICANT
+0.05,5,Wilkinson Curve,NOT_SIGNIFICANT
+0.1,1,Wilkinson Curve,NOT_SIGNIFICANT
+0.1,2,Wilkinson Curve,NOT_SIGNIFICANT
+0.1,3,Wilkinson Curve,NOT_SIGNIFICANT
+0.1,4,Wilkinson Curve,NOT_SIGNIFICANT
+0.1,5,Wilkinson Curve,NOT_SIGNIFICANT
+0.01,1,BMI-Mortality J-Curve,NOT_SIGNIFICANT
+0.01,2,BMI-Mortality J-Curve,NOT_SIGNIFICANT
+0.01,3,BMI-Mortality J-Curve,NOT_SIGNIFICANT
+0.01,4,BMI-Mortality J-Curve,NOT_SIGNIFICANT
+0.01,5,BMI-Mortality J-Curve,NOT_SIGNIFICANT
+0.05,1,BMI-Mortality J-Curve,OVERFITTING
+0.05,2,BMI-Mortality J-Curve,OVERFITTING
+0.05,3,BMI-Mortality J-Curve,OVERFITTING
+0.05,4,BMI-Mortality J-Curve,OVERFITTING
+0.05,5,BMI-Mortality J-Curve,OUTLIER_DEPENDENT
+0.1,1,BMI-Mortality J-Curve,OVERFITTING
+0.1,2,BMI-Mortality J-Curve,OVERFITTING
+0.1,3,BMI-Mortality J-Curve,OVERFITTING
+0.1,4,BMI-Mortality J-Curve,OVERFITTING
+0.1,5,BMI-Mortality J-Curve,OUTLIER_DEPENDENT
+0.01,1,Alcohol-Mortality J-Curve,NOT_SIGNIFICANT
+0.01,2,Alcohol-Mortality J-Curve,NOT_SIGNIFICANT
+0.01,3,Alcohol-Mortality J-Curve,NOT_SIGNIFICANT
+0.01,4,Alcohol-Mortality J-Curve,NOT_SIGNIFICANT
+0.01,5,Alcohol-Mortality J-Curve,NOT_SIGNIFICANT
+0.05,1,Alcohol-Mortality J-Curve,ROBUST_NONLINEAR
+0.05,2,Alcohol-Mortality J-Curve,ROBUST_NONLINEAR
+0.05,3,Alcohol-Mortality J-Curve,ROBUST_NONLINEAR
+0.05,4,Alcohol-Mortality J-Curve,ROBUST_NONLINEAR
+0.05,5,Alcohol-Mortality J-Curve,ROBUST_NONLINEAR
+0.1,1,Alcohol-Mortality J-Curve,ROBUST_NONLINEAR
+0.1,2,Alcohol-Mortality J-Curve,ROBUST_NONLINEAR
+0.1,3,Alcohol-Mortality J-Curve,ROBUST_NONLINEAR
+0.1,4,Alcohol-Mortality J-Curve,ROBUST_NONLINEAR
+0.1,5,Alcohol-Mortality J-Curve,ROBUST_NONLINEAR
+0.01,1,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.01,2,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.01,3,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.01,4,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.01,5,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.05,1,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.05,2,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.05,3,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.05,4,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.05,5,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.1,1,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.1,2,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.1,3,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.1,4,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.1,5,Demographic Transition (TFR),ROBUST_NONLINEAR
+0.01,1,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.01,2,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.01,3,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.01,4,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.01,5,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.05,1,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.05,2,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.05,3,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.05,4,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.05,5,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.1,1,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.1,2,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.1,3,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.1,4,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.1,5,Bongaarts-Feeney Tempo Effect,NOT_SIGNIFICANT
+0.01,1,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.01,2,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.01,3,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.01,4,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.01,5,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.05,1,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.05,2,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.05,3,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.05,4,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.05,5,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.1,1,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.1,2,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.1,3,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.1,4,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.1,5,Lee-Carter Mortality Model,ROBUST_NONLINEAR
+0.01,1,Coale-Trussell Fertility Schedule,OUTLIER_DEPENDENT
+0.01,2,Coale-Trussell Fertility Schedule,OUTLIER_DEPENDENT
+0.01,3,Coale-Trussell Fertility Schedule,INSUFFICIENT_DATA
+0.01,4,Coale-Trussell Fertility Schedule,INSUFFICIENT_DATA
+0.01,5,Coale-Trussell Fertility Schedule,INSUFFICIENT_DATA
+0.05,1,Coale-Trussell Fertility Schedule,ROBUST_NONLINEAR
+0.05,2,Coale-Trussell Fertility Schedule,OUTLIER_DEPENDENT
+0.05,3,Coale-Trussell Fertility Schedule,INSUFFICIENT_DATA
+0.05,4,Coale-Trussell Fertility Schedule,INSUFFICIENT_DATA
+0.05,5,Coale-Trussell Fertility Schedule,INSUFFICIENT_DATA
+0.1,1,Coale-Trussell Fertility Schedule,ROBUST_NONLINEAR
+0.1,2,Coale-Trussell Fertility Schedule,ROBUST_NONLINEAR
+0.1,3,Coale-Trussell Fertility Schedule,INSUFFICIENT_DATA
+0.1,4,Coale-Trussell Fertility Schedule,INSUFFICIENT_DATA
+0.1,5,Coale-Trussell Fertility Schedule,INSUFFICIENT_DATA
+0.01,1,Replacement Migration Curve,NOT_SIGNIFICANT
+0.01,2,Replacement Migration Curve,NOT_SIGNIFICANT
+0.01,3,Replacement Migration Curve,NOT_SIGNIFICANT
+0.01,4,Replacement Migration Curve,NOT_SIGNIFICANT
+0.01,5,Replacement Migration Curve,NOT_SIGNIFICANT
+0.05,1,Replacement Migration Curve,NOT_SIGNIFICANT
+0.05,2,Replacement Migration Curve,NOT_SIGNIFICANT
+0.05,3,Replacement Migration Curve,NOT_SIGNIFICANT
+0.05,4,Replacement Migration Curve,NOT_SIGNIFICANT
+0.05,5,Replacement Migration Curve,NOT_SIGNIFICANT
+0.1,1,Replacement Migration Curve,OUTLIER_DEPENDENT
+0.1,2,Replacement Migration Curve,OUTLIER_DEPENDENT
+0.1,3,Replacement Migration Curve,OUTLIER_DEPENDENT
+0.1,4,Replacement Migration Curve,OUTLIER_DEPENDENT
+0.1,5,Replacement Migration Curve,INSUFFICIENT_DATA
+0.01,1,Second Demographic Transition,NOT_SIGNIFICANT
+0.01,2,Second Demographic Transition,NOT_SIGNIFICANT
+0.01,3,Second Demographic Transition,NOT_SIGNIFICANT
+0.01,4,Second Demographic Transition,NOT_SIGNIFICANT
+0.01,5,Second Demographic Transition,NOT_SIGNIFICANT
+0.05,1,Second Demographic Transition,NOT_SIGNIFICANT
+0.05,2,Second Demographic Transition,NOT_SIGNIFICANT
+0.05,3,Second Demographic Transition,NOT_SIGNIFICANT
+0.05,4,Second Demographic Transition,NOT_SIGNIFICANT
+0.05,5,Second Demographic Transition,NOT_SIGNIFICANT
+0.1,1,Second Demographic Transition,NOT_SIGNIFICANT
+0.1,2,Second Demographic Transition,NOT_SIGNIFICANT
+0.1,3,Second Demographic Transition,NOT_SIGNIFICANT
+0.1,4,Second Demographic Transition,NOT_SIGNIFICANT
+0.1,5,Second Demographic Transition,NOT_SIGNIFICANT
+0.01,1,Species-Area Curve,NOT_SIGNIFICANT
+0.01,2,Species-Area Curve,NOT_SIGNIFICANT
+0.01,3,Species-Area Curve,NOT_SIGNIFICANT
+0.01,4,Species-Area Curve,NOT_SIGNIFICANT
+0.01,5,Species-Area Curve,NOT_SIGNIFICANT
+0.05,1,Species-Area Curve,NOT_SIGNIFICANT
+0.05,2,Species-Area Curve,NOT_SIGNIFICANT
+0.05,3,Species-Area Curve,NOT_SIGNIFICANT
+0.05,4,Species-Area Curve,NOT_SIGNIFICANT
+0.05,5,Species-Area Curve,NOT_SIGNIFICANT
+0.1,1,Species-Area Curve,NOT_SIGNIFICANT
+0.1,2,Species-Area Curve,NOT_SIGNIFICANT
+0.1,3,Species-Area Curve,NOT_SIGNIFICANT
+0.1,4,Species-Area Curve,NOT_SIGNIFICANT
+0.1,5,Species-Area Curve,NOT_SIGNIFICANT
+0.01,1,Hubbert Peak Oil (US),NOT_SIGNIFICANT
+0.01,2,Hubbert Peak Oil (US),NOT_SIGNIFICANT
+0.01,3,Hubbert Peak Oil (US),NOT_SIGNIFICANT
+0.01,4,Hubbert Peak Oil (US),NOT_SIGNIFICANT
+0.01,5,Hubbert Peak Oil (US),NOT_SIGNIFICANT
+0.05,1,Hubbert Peak Oil (US),OUTLIER_DEPENDENT
+0.05,2,Hubbert Peak Oil (US),OUTLIER_DEPENDENT
+0.05,3,Hubbert Peak Oil (US),OUTLIER_DEPENDENT
+0.05,4,Hubbert Peak Oil (US),OUTLIER_DEPENDENT
+0.05,5,Hubbert Peak Oil (US),OUTLIER_DEPENDENT
+0.1,1,Hubbert Peak Oil (US),ROBUST_NONLINEAR
+0.1,2,Hubbert Peak Oil (US),OUTLIER_DEPENDENT
+0.1,3,Hubbert Peak Oil (US),OUTLIER_DEPENDENT
+0.1,4,Hubbert Peak Oil (US),OUTLIER_DEPENDENT
+0.1,5,Hubbert Peak Oil (US),OUTLIER_DEPENDENT
+0.01,1,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.01,2,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.01,3,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.01,4,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.01,5,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.05,1,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.05,2,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.05,3,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.05,4,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.05,5,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.1,1,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.1,2,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.1,3,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.1,4,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.1,5,Keeling Curve (CO2),ROBUST_NONLINEAR
+0.01,1,HANPP vs Development,NOT_SIGNIFICANT
+0.01,2,HANPP vs Development,NOT_SIGNIFICANT
+0.01,3,HANPP vs Development,NOT_SIGNIFICANT
+0.01,4,HANPP vs Development,NOT_SIGNIFICANT
+0.01,5,HANPP vs Development,NOT_SIGNIFICANT
+0.05,1,HANPP vs Development,NOT_SIGNIFICANT
+0.05,2,HANPP vs Development,NOT_SIGNIFICANT
+0.05,3,HANPP vs Development,NOT_SIGNIFICANT
+0.05,4,HANPP vs Development,NOT_SIGNIFICANT
+0.05,5,HANPP vs Development,NOT_SIGNIFICANT
+0.1,1,HANPP vs Development,OUTLIER_DEPENDENT
+0.1,2,HANPP vs Development,OUTLIER_DEPENDENT
+0.1,3,HANPP vs Development,OUTLIER_DEPENDENT
+0.1,4,HANPP vs Development,OUTLIER_DEPENDENT
+0.1,5,HANPP vs Development,OUTLIER_DEPENDENT
+0.01,1,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.01,2,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.01,3,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.01,4,Jevons Paradox (Energy),OUTLIER_DEPENDENT
+0.01,5,Jevons Paradox (Energy),OUTLIER_DEPENDENT
+0.05,1,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.05,2,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.05,3,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.05,4,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.05,5,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.1,1,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.1,2,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.1,3,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.1,4,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.1,5,Jevons Paradox (Energy),ROBUST_NONLINEAR
+0.01,1,Forest Transition Curve,NOT_SIGNIFICANT
+0.01,2,Forest Transition Curve,NOT_SIGNIFICANT
+0.01,3,Forest Transition Curve,NOT_SIGNIFICANT
+0.01,4,Forest Transition Curve,NOT_SIGNIFICANT
+0.01,5,Forest Transition Curve,NOT_SIGNIFICANT
+0.05,1,Forest Transition Curve,NOT_SIGNIFICANT
+0.05,2,Forest Transition Curve,NOT_SIGNIFICANT
+0.05,3,Forest Transition Curve,NOT_SIGNIFICANT
+0.05,4,Forest Transition Curve,NOT_SIGNIFICANT
+0.05,5,Forest Transition Curve,NOT_SIGNIFICANT
+0.1,1,Forest Transition Curve,NOT_SIGNIFICANT
+0.1,2,Forest Transition Curve,NOT_SIGNIFICANT
+0.1,3,Forest Transition Curve,NOT_SIGNIFICANT
+0.1,4,Forest Transition Curve,NOT_SIGNIFICANT
+0.1,5,Forest Transition Curve,NOT_SIGNIFICANT
+0.01,1,Ebbinghaus Forgetting Curve,NOT_SIGNIFICANT
+0.01,2,Ebbinghaus Forgetting Curve,NOT_SIGNIFICANT
+0.01,3,Ebbinghaus Forgetting Curve,NOT_SIGNIFICANT
+0.01,4,Ebbinghaus Forgetting Curve,NOT_SIGNIFICANT
+0.01,5,Ebbinghaus Forgetting Curve,NOT_SIGNIFICANT
+0.05,1,Ebbinghaus Forgetting Curve,NOT_SIGNIFICANT
+0.05,2,Ebbinghaus Forgetting Curve,NOT_SIGNIFICANT
+0.05,3,Ebbinghaus Forgetting Curve,NOT_SIGNIFICANT
+0.05,4,Ebbinghaus Forgetting Curve,NOT_SIGNIFICANT
+0.05,5,Ebbinghaus Forgetting Curve,NOT_SIGNIFICANT
+0.1,1,Ebbinghaus Forgetting Curve,OUTLIER_DEPENDENT
+0.1,2,Ebbinghaus Forgetting Curve,OUTLIER_DEPENDENT
+0.1,3,Ebbinghaus Forgetting Curve,OUTLIER_DEPENDENT
+0.1,4,Ebbinghaus Forgetting Curve,INSUFFICIENT_DATA
+0.1,5,Ebbinghaus Forgetting Curve,INSUFFICIENT_DATA
+0.01,1,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.01,2,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.01,3,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.01,4,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.01,5,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.05,1,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.05,2,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.05,3,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.05,4,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.05,5,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.1,1,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.1,2,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.1,3,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.1,4,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.1,5,Dunning-Kruger Effect,NOT_SIGNIFICANT
+0.01,1,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.01,2,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.01,3,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.01,4,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.01,5,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.05,1,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.05,2,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.05,3,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.05,4,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.05,5,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.1,1,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.1,2,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.1,3,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.1,4,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.1,5,Happiness U-Curve (Age),ROBUST_NONLINEAR
+0.01,1,Hubble's Law,NOT_SIGNIFICANT
+0.01,2,Hubble's Law,NOT_SIGNIFICANT
+0.01,3,Hubble's Law,NOT_SIGNIFICANT
+0.01,4,Hubble's Law,NOT_SIGNIFICANT
+0.01,5,Hubble's Law,NOT_SIGNIFICANT
+0.05,1,Hubble's Law,NOT_SIGNIFICANT
+0.05,2,Hubble's Law,NOT_SIGNIFICANT
+0.05,3,Hubble's Law,NOT_SIGNIFICANT
+0.05,4,Hubble's Law,NOT_SIGNIFICANT
+0.05,5,Hubble's Law,NOT_SIGNIFICANT
+0.1,1,Hubble's Law,NOT_SIGNIFICANT
+0.1,2,Hubble's Law,NOT_SIGNIFICANT
+0.1,3,Hubble's Law,NOT_SIGNIFICANT
+0.1,4,Hubble's Law,NOT_SIGNIFICANT
+0.1,5,Hubble's Law,NOT_SIGNIFICANT
+0.01,1,Kleiber's Law,ROBUST_NONLINEAR
+0.01,2,Kleiber's Law,ROBUST_NONLINEAR
+0.01,3,Kleiber's Law,ROBUST_NONLINEAR
+0.01,4,Kleiber's Law,ROBUST_NONLINEAR
+0.01,5,Kleiber's Law,ROBUST_NONLINEAR
+0.05,1,Kleiber's Law,ROBUST_NONLINEAR
+0.05,2,Kleiber's Law,ROBUST_NONLINEAR
+0.05,3,Kleiber's Law,ROBUST_NONLINEAR
+0.05,4,Kleiber's Law,ROBUST_NONLINEAR
+0.05,5,Kleiber's Law,ROBUST_NONLINEAR
+0.1,1,Kleiber's Law,ROBUST_NONLINEAR
+0.1,2,Kleiber's Law,ROBUST_NONLINEAR
+0.1,3,Kleiber's Law,ROBUST_NONLINEAR
+0.1,4,Kleiber's Law,ROBUST_NONLINEAR
+0.1,5,Kleiber's Law,ROBUST_NONLINEAR
+0.01,1,Gutenberg-Richter Law,NOT_SIGNIFICANT
+0.01,2,Gutenberg-Richter Law,NOT_SIGNIFICANT
+0.01,3,Gutenberg-Richter Law,NOT_SIGNIFICANT
+0.01,4,Gutenberg-Richter Law,NOT_SIGNIFICANT
+0.01,5,Gutenberg-Richter Law,NOT_SIGNIFICANT
+0.05,1,Gutenberg-Richter Law,NOT_SIGNIFICANT
+0.05,2,Gutenberg-Richter Law,NOT_SIGNIFICANT
+0.05,3,Gutenberg-Richter Law,NOT_SIGNIFICANT
+0.05,4,Gutenberg-Richter Law,NOT_SIGNIFICANT
+0.05,5,Gutenberg-Richter Law,NOT_SIGNIFICANT
+0.1,1,Gutenberg-Richter Law,OUTLIER_DEPENDENT
+0.1,2,Gutenberg-Richter Law,OUTLIER_DEPENDENT
+0.1,3,Gutenberg-Richter Law,OUTLIER_DEPENDENT
+0.1,4,Gutenberg-Richter Law,OUTLIER_DEPENDENT
+0.1,5,Gutenberg-Richter Law,OUTLIER_DEPENDENT
+0.01,1,Moore's Law,NOT_SIGNIFICANT
+0.01,2,Moore's Law,NOT_SIGNIFICANT
+0.01,3,Moore's Law,NOT_SIGNIFICANT
+0.01,4,Moore's Law,NOT_SIGNIFICANT
+0.01,5,Moore's Law,NOT_SIGNIFICANT
+0.05,1,Moore's Law,ROBUST_NONLINEAR
+0.05,2,Moore's Law,ROBUST_NONLINEAR
+0.05,3,Moore's Law,OUTLIER_DEPENDENT
+0.05,4,Moore's Law,OUTLIER_DEPENDENT
+0.05,5,Moore's Law,OUTLIER_DEPENDENT
+0.1,1,Moore's Law,ROBUST_NONLINEAR
+0.1,2,Moore's Law,ROBUST_NONLINEAR
+0.1,3,Moore's Law,ROBUST_NONLINEAR
+0.1,4,Moore's Law,OUTLIER_DEPENDENT
+0.1,5,Moore's Law,OUTLIER_DEPENDENT
+0.01,1,Lipset Hypothesis,ROBUST_NONLINEAR
+0.01,2,Lipset Hypothesis,OUTLIER_DEPENDENT
+0.01,3,Lipset Hypothesis,OUTLIER_DEPENDENT
+0.01,4,Lipset Hypothesis,ROBUST_NONLINEAR
+0.01,5,Lipset Hypothesis,ROBUST_NONLINEAR
+0.05,1,Lipset Hypothesis,ROBUST_NONLINEAR
+0.05,2,Lipset Hypothesis,ROBUST_NONLINEAR
+0.05,3,Lipset Hypothesis,ROBUST_NONLINEAR
+0.05,4,Lipset Hypothesis,ROBUST_NONLINEAR
+0.05,5,Lipset Hypothesis,ROBUST_NONLINEAR
+0.1,1,Lipset Hypothesis,ROBUST_NONLINEAR
+0.1,2,Lipset Hypothesis,ROBUST_NONLINEAR
+0.1,3,Lipset Hypothesis,ROBUST_NONLINEAR
+0.1,4,Lipset Hypothesis,ROBUST_NONLINEAR
+0.1,5,Lipset Hypothesis,ROBUST_NONLINEAR
+0.01,1,Duverger's Law,ROBUST_NONLINEAR
+0.01,2,Duverger's Law,ROBUST_NONLINEAR
+0.01,3,Duverger's Law,ROBUST_NONLINEAR
+0.01,4,Duverger's Law,ROBUST_NONLINEAR
+0.01,5,Duverger's Law,ROBUST_NONLINEAR
+0.05,1,Duverger's Law,ROBUST_NONLINEAR
+0.05,2,Duverger's Law,ROBUST_NONLINEAR
+0.05,3,Duverger's Law,ROBUST_NONLINEAR
+0.05,4,Duverger's Law,ROBUST_NONLINEAR
+0.05,5,Duverger's Law,ROBUST_NONLINEAR
+0.1,1,Duverger's Law,ROBUST_NONLINEAR
+0.1,2,Duverger's Law,ROBUST_NONLINEAR
+0.1,3,Duverger's Law,ROBUST_NONLINEAR
+0.1,4,Duverger's Law,ROBUST_NONLINEAR
+0.1,5,Duverger's Law,ROBUST_NONLINEAR
+0.01,1,Zipf's Law (US Cities),OUTLIER_DEPENDENT
+0.01,2,Zipf's Law (US Cities),OUTLIER_DEPENDENT
+0.01,3,Zipf's Law (US Cities),OUTLIER_DEPENDENT
+0.01,4,Zipf's Law (US Cities),OUTLIER_DEPENDENT
+0.01,5,Zipf's Law (US Cities),OUTLIER_DEPENDENT
+0.05,1,Zipf's Law (US Cities),OUTLIER_DEPENDENT
+0.05,2,Zipf's Law (US Cities),OUTLIER_DEPENDENT
+0.05,3,Zipf's Law (US Cities),OUTLIER_DEPENDENT
+0.05,4,Zipf's Law (US Cities),OVERFITTING
+0.05,5,Zipf's Law (US Cities),OVERFITTING
+0.1,1,Zipf's Law (US Cities),OVERFITTING
+0.1,2,Zipf's Law (US Cities),OUTLIER_DEPENDENT
+0.1,3,Zipf's Law (US Cities),OVERFITTING
+0.1,4,Zipf's Law (US Cities),OVERFITTING
+0.1,5,Zipf's Law (US Cities),OVERFITTING
+0.01,1,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.01,2,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.01,3,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.01,4,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.01,5,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.05,1,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.05,2,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.05,3,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.05,4,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.05,5,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.1,1,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.1,2,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.1,3,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.1,4,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.1,5,Crime-Temperature Curve,NOT_SIGNIFICANT
+0.01,1,Putnam Social Capital,NOT_SIGNIFICANT
+0.01,2,Putnam Social Capital,NOT_SIGNIFICANT
+0.01,3,Putnam Social Capital,NOT_SIGNIFICANT
+0.01,4,Putnam Social Capital,NOT_SIGNIFICANT
+0.01,5,Putnam Social Capital,NOT_SIGNIFICANT
+0.05,1,Putnam Social Capital,NOT_SIGNIFICANT
+0.05,2,Putnam Social Capital,NOT_SIGNIFICANT
+0.05,3,Putnam Social Capital,NOT_SIGNIFICANT
+0.05,4,Putnam Social Capital,NOT_SIGNIFICANT
+0.05,5,Putnam Social Capital,NOT_SIGNIFICANT
+0.1,1,Putnam Social Capital,NOT_SIGNIFICANT
+0.1,2,Putnam Social Capital,NOT_SIGNIFICANT
+0.1,3,Putnam Social Capital,NOT_SIGNIFICANT
+0.1,4,Putnam Social Capital,NOT_SIGNIFICANT
+0.1,5,Putnam Social Capital,NOT_SIGNIFICANT
+0.01,1,Mitscherlich Yield Curve,ROBUST_NONLINEAR
+0.01,2,Mitscherlich Yield Curve,ROBUST_NONLINEAR
+0.01,3,Mitscherlich Yield Curve,OUTLIER_DEPENDENT
+0.01,4,Mitscherlich Yield Curve,OUTLIER_DEPENDENT
+0.01,5,Mitscherlich Yield Curve,OUTLIER_DEPENDENT
+0.05,1,Mitscherlich Yield Curve,ROBUST_NONLINEAR
+0.05,2,Mitscherlich Yield Curve,ROBUST_NONLINEAR
+0.05,3,Mitscherlich Yield Curve,ROBUST_NONLINEAR
+0.05,4,Mitscherlich Yield Curve,ROBUST_NONLINEAR
+0.05,5,Mitscherlich Yield Curve,OUTLIER_DEPENDENT
+0.1,1,Mitscherlich Yield Curve,ROBUST_NONLINEAR
+0.1,2,Mitscherlich Yield Curve,ROBUST_NONLINEAR
+0.1,3,Mitscherlich Yield Curve,ROBUST_NONLINEAR
+0.1,4,Mitscherlich Yield Curve,ROBUST_NONLINEAR
+0.1,5,Mitscherlich Yield Curve,ROBUST_NONLINEAR
+0.01,1,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.01,2,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.01,3,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.01,4,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.01,5,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.05,1,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.05,2,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.05,3,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.05,4,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.05,5,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.1,1,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.1,2,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.1,3,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.1,4,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.1,5,Green Revolution Yield Curve,NOT_SIGNIFICANT
+0.01,1,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.01,2,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.01,3,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.01,4,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.01,5,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.05,1,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.05,2,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.05,3,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.05,4,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.05,5,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.1,1,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.1,2,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.1,3,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.1,4,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.1,5,Micronutrient U-shape (Vitamin D),ROBUST_NONLINEAR
+0.01,1,Body Weight Set-Point,OUTLIER_DEPENDENT
+0.01,2,Body Weight Set-Point,INSUFFICIENT_DATA
+0.01,3,Body Weight Set-Point,INSUFFICIENT_DATA
+0.01,4,Body Weight Set-Point,INSUFFICIENT_DATA
+0.01,5,Body Weight Set-Point,INSUFFICIENT_DATA
+0.05,1,Body Weight Set-Point,OUTLIER_DEPENDENT
+0.05,2,Body Weight Set-Point,INSUFFICIENT_DATA
+0.05,3,Body Weight Set-Point,INSUFFICIENT_DATA
+0.05,4,Body Weight Set-Point,INSUFFICIENT_DATA
+0.05,5,Body Weight Set-Point,INSUFFICIENT_DATA
+0.1,1,Body Weight Set-Point,OUTLIER_DEPENDENT
+0.1,2,Body Weight Set-Point,INSUFFICIENT_DATA
+0.1,3,Body Weight Set-Point,INSUFFICIENT_DATA
+0.1,4,Body Weight Set-Point,INSUFFICIENT_DATA
+0.1,5,Body Weight Set-Point,INSUFFICIENT_DATA

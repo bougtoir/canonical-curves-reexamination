@@ -1,0 +1,7 @@
+treatment,adjustment,quantity,value,ci_low,ci_high,source,reconstruction_related_deaths
+T1,raw,estimated excess deaths,-871.0442549169579,-1487.1624673695042,-228.2420148532019,Fukushima municipal panel and ATT model,2078
+T1,scope_robustness,estimated excess deaths,-1036.0923202215392,-1617.8339183791252,-430.6201947813041,Fukushima municipal panel and ATT model,2078
+T1w,raw,estimated excess deaths,-399.3453286919021,-502.9091541060223,-292.3694761142467,Fukushima municipal panel and ATT model,790
+T1w,scope_robustness,estimated excess deaths,-424.436319980397,-527.0859028533629,-318.4355455582299,Fukushima municipal panel and ATT model,790
+T2,raw,estimated excess deaths,84.14801800110341,-47.821680930311125,219.66906615356282,Fukushima municipal panel and ATT model,60
+T2,scope_robustness,estimated excess deaths,40.5749181633922,-92.53903716047023,177.30294000240377,Fukushima municipal panel and ATT model,60
