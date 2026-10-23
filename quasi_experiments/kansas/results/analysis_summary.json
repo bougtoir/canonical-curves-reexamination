@@ -1,0 +1,210 @@
+{
+  "treatment": "KS, first treated year 2013; reversal year 2017, extension reported through 2019",
+  "pools": {
+    "main": [
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "GA",
+      "IA",
+      "ID",
+      "IL",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NE",
+      "NJ",
+      "NM",
+      "NY",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "UT",
+      "VA",
+      "VT",
+      "WV"
+    ],
+    "all": [
+      "AK",
+      "AL",
+      "AR",
+      "AZ",
+      "CA",
+      "CO",
+      "CT",
+      "DC",
+      "DE",
+      "FL",
+      "GA",
+      "HI",
+      "IA",
+      "ID",
+      "IL",
+      "IN",
+      "KY",
+      "LA",
+      "MA",
+      "MD",
+      "ME",
+      "MI",
+      "MN",
+      "MO",
+      "MS",
+      "MT",
+      "NC",
+      "ND",
+      "NE",
+      "NH",
+      "NJ",
+      "NM",
+      "NV",
+      "NY",
+      "OH",
+      "OK",
+      "OR",
+      "PA",
+      "RI",
+      "SC",
+      "SD",
+      "TN",
+      "TX",
+      "UT",
+      "VA",
+      "VT",
+      "WA",
+      "WI",
+      "WV",
+      "WY"
+    ],
+    "neighbors": [
+      "NE",
+      "MO",
+      "CO",
+      "IA"
+    ],
+    "rate_change_exclusions": [
+      "NC",
+      "OK",
+      "WI",
+      "OH",
+      "ME",
+      "IN",
+      "ND"
+    ],
+    "no_broad_income_tax_exclusions": [
+      "TX",
+      "FL",
+      "WA",
+      "NV",
+      "SD",
+      "WY",
+      "AK",
+      "NH",
+      "TN"
+    ]
+  },
+  "n_units": {
+    "available": 51,
+    "main": 33,
+    "all": 50,
+    "neighbors": 4
+  },
+  "unit_verification": {
+    "rgdp": {
+      "used": "millions of chained dollars, as specified for XXRGSP",
+      "sources_checked": "kansas/data/SOURCES.md and raw fred_KS_rgdp_KSRGSP.csv",
+      "raw_header": [
+        "observation_date",
+        "KSRGSP"
+      ],
+      "finding": "SOURCES.md and raw CSV header identify the series but do not print a unit label; the specified FRED convention was used."
+    },
+    "pop": {
+      "used": "thousands of persons, as specified for XXPOP",
+      "sources_checked": "kansas/data/SOURCES.md and raw fred_KS_pop KSPOP CSV",
+      "finding": "Raw FRED header is date/value only; the specified series unit convention was used."
+    },
+    "tax": {
+      "used": "thousands of dollars in STC historical database",
+      "sources_checked": "kansas/data/SOURCES.md and STC raw workbook headers",
+      "finding": "SOURCES.md records C105 (total), T40, T41, and T09; the extraction notes identify the STC values as thousands of dollars."
+    },
+    "employment": {
+      "used": "thousands of employees, annual mean of monthly FRED XXNA",
+      "sources_checked": "kansas/data/SOURCES.md and raw FRED KSNA CSV",
+      "finding": "Raw FRED header is date/value only; the specified series convention was used."
+    }
+  },
+  "matplotlib_font_check": {
+    "font_family": [
+      "sans-serif"
+    ],
+    "labels_ascii": true
+  },
+  "obstacles": [],
+  "analysis_years": {
+    "pre": [
+      1997,
+      1998,
+      1999,
+      2000,
+      2001,
+      2002,
+      2003,
+      2004,
+      2005,
+      2006,
+      2007,
+      2008,
+      2009,
+      2010,
+      2011,
+      2012
+    ],
+    "main_post": [
+      2013,
+      2014,
+      2015,
+      2016,
+      2017
+    ],
+    "extension": [
+      2018,
+      2019
+    ]
+  },
+  "loo_ranges": {
+    "ln_emp": {
+      "min_post_mean_gap": -0.013993588667772627,
+      "max_post_mean_gap": -0.0010494762336872299,
+      "n_dropped_donors": 6
+    },
+    "ln_real_iit_pc": {
+      "min_post_mean_gap": -0.3220915860629205,
+      "max_post_mean_gap": -0.2909534094416196,
+      "n_dropped_donors": 4
+    },
+    "ln_real_tax_pc": {
+      "min_post_mean_gap": -0.03877374312630462,
+      "max_post_mean_gap": -0.027769932753318828,
+      "n_dropped_donors": 6
+    },
+    "ln_rgdp_pc": {
+      "min_post_mean_gap": 0.009002641301478676,
+      "max_post_mean_gap": 0.02855099614483052,
+      "n_dropped_donors": 4
+    }
+  }
+}

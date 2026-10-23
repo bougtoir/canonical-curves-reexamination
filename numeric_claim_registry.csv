@@ -1,0 +1,90 @@
+claim_id,section,location,claim_text_or_context,displayed_value,units,rounding,canonical_source_file,canonical_field_row,derivation,figure_table_ref,verification_status
+C001,Mapping,Background,canonical relationships screened,52,count,journal rounding,results/full_results.json + 2 excluded pairs,n_inventory,injected via numbers.json,,verified
+C002,Mapping,Background,pairs lacking reproducible dataset,2,count,journal rounding,documented exclusions (synthetic/hand-typed),n_excluded,injected via numbers.json,,verified
+C003,Mapping,Background/Abstract,relationship-dataset pairs evaluated,50,count,journal rounding,results/summary_table.csv rows,n_curves,injected via numbers.json,,verified
+C004,Mapping,Background,pairs not meeting robust-nonlinear criteria,34,count,journal rounding,summary_table Verdict != ROBUST_NONLINEAR,n_not_robust,injected via numbers.json,,verified
+C005,Mapping,Table 1,not-significant category count,27,count,journal rounding,summary_table Verdict,n_not_sig,injected via numbers.json,,verified
+C006,Mapping,Table 1,outlier-dependent count,4,count,journal rounding,summary_table Verdict,n_outlier,injected via numbers.json,,verified
+C007,Mapping,Table 1,overfitting count,1,count,journal rounding,summary_table Verdict,n_overfit,injected via numbers.json,,verified
+C008,Mapping,Table 1,insufficient-data count,2,count,journal rounding,summary_table Verdict,n_insufficient,injected via numbers.json,,verified
+C009,Mapping,Background,share failing criteria at default alpha/k,68,%,journal rounding,computed 34/50,share_not_robust_pct,injected via numbers.json,,verified
+C010,Mapping,Background,sensitivity grid minimum share,60,%,journal rounding,verdict_sensitivity_summary.csv min share_not_robust,share_min_pct,injected via numbers.json,,verified
+C011,Mapping,Background,sensitivity grid maximum share,74,%,journal rounding,verdict_sensitivity_summary.csv max share_not_robust,share_max_pct,injected via numbers.json,,verified
+C012,Mapping,Methods,nested F-test alpha,0.05,-,journal rounding,core_analysis config,alpha_default,injected via numbers.json,,verified
+C013,Mapping,Methods,influential observations removed,3,count,journal rounding,core_analysis config,k_default,injected via numbers.json,,verified
+C014,Mapping,Methods,alpha sensitivity grid,"{0.01, 0.05, 0.10}",-,journal rounding,verdict_sensitivity.py config,alpha_grid,injected via numbers.json,,verified
+C015,Mapping,Methods,k sensitivity grid,"{1, ..., 5}",-,journal rounding,verdict_sensitivity.py config,k_grid,injected via numbers.json,,verified
+C016,Mapping,Background,Laffer dataset n,29,count,journal rounding,summary_table Laffer row,laffer_n,injected via numbers.json,,verified
+C017,Mapping,Background,Laffer quadratic p,0.06,p-value,journal rounding,summary_table Laffer row p (clean),laffer_p,injected via numbers.json,,verified
+C018,Mapping,Background,LNT dataset n,21,count,journal rounding,summary_table LNT row,lnt_n,injected via numbers.json,,verified
+C019,Mapping,Background,LNT quadratic p,0.15,p-value,journal rounding,summary_table LNT row p (clean),lnt_p,injected via numbers.json,,verified
+C020,Mapping,Background,LNT obs below 0.1 Gy,6,count,journal rounding,data/lnt_real.csv,lnt_n_lowdose,injected via numbers.json,,verified
+C021,Fukushima,Design/Case1,municipalities in panel,307,count,journal rounding,fukushima/data/municipal_panel.csv,n_all_units,injected via numbers.json,,verified
+C022,Fukushima,Design/Case1,T1 evacuation municipalities,10,count,journal rounding,analyze_fukushima.py cohort,n_t1,injected via numbers.json,,verified
+C023,Fukushima,Case1,T1w municipalities,4,count,journal rounding,analyze_fukushima.py cohort,n_t1w,injected via numbers.json,,verified
+C024,Fukushima,Case1,T2 municipalities,2,count,journal rounding,analyze_fukushima.py cohort,n_t2,injected via numbers.json,,verified
+C025,Fukushima,Case1,tsunami inundation exclusion threshold,1.2,%,journal rounding,analyze_fukushima.py config (external policy criterion),tsunami_cut,injected via numbers.json,,verified
+C026,Fukushima,Case1,control municipalities,191,count,journal rounding,fukushima/results/sample_summary.json,n_controls,injected via numbers.json,,verified
+C027,Fukushima,Case1/Table A1,dropped for missingness,47,count,journal rounding,fukushima/results/dropped_units.csv,n_dropped_missing,injected via numbers.json,,verified
+C028,Fukushima,Table A1,prefectural concentration of drops,the drops are concentrated in Miyagi (15) and Niigata (12),text,journal rounding,fukushima/results/dropped_units.csv,n_dropped_top_prefs,injected via numbers.json,,verified
+C029,Fukushima,Abstract/Case1,approx. evacuated residents,"160,000",persons,journal rounding,evacuation_orders.csv total (external approx.),evac_pop_approx,injected via numbers.json,,verified
+C030,Fukushima,Case1/Table 2,preferred DiD ATT,-0.085,log points,journal rounding,fukushima/results/att_summary.csv T1 raw,t1_main_att,injected via numbers.json,,verified
+C031,Fukushima,Case1,approx. % fewer recorded deaths,8,%,journal rounding,derived exp(att)-1 rounding,t1_main_att_pct,injected via numbers.json,,verified
+C032,Fukushima,Case1/Table 2,permutation p,0.001,p-value,journal rounding,fukushima/results/did_permutation_inference.csv,t1_main_perm_p,injected via numbers.json,,verified
+C033,Fukushima,Case1/Table 2,pre-trend p,0.314,p-value,journal rounding,fukushima/results/pretrend_wald_tests.csv,t1_main_pretrend_p,injected via numbers.json,,verified
+C034,Fukushima,Case1,2011 coefficient,0.191,log points,journal rounding,fukushima/results/did_event_study.csv,t1_main_ev2011,injected via numbers.json,,verified
+C035,Fukushima,Table 2,spec grid min ATT,-0.085,log points,journal rounding,att_summary.csv,t1_att_min,injected via numbers.json,,verified
+C036,Fukushima,Table 2,spec grid max ATT,-0.057,log points,journal rounding,att_summary.csv,t1_att_max,injected via numbers.json,,verified
+C037,Fukushima,Case1,lower % bound,6,%,journal rounding,derived rounding,t1_pct_min,injected via numbers.json,,verified
+C038,Fukushima,Table 2,T1w ATT,-0.129,log points,journal rounding,att_summary.csv T1w,t1w_main_att,injected via numbers.json,,verified
+C039,Fukushima,Table 2,T1w permutation p,< 0.001,p-value,journal rounding,did_permutation_inference.csv,t1w_main_perm_p,injected via numbers.json,,verified
+C040,Fukushima,Case1,T1w upper % bound,14,%,journal rounding,derived rounding,t1w_pct_max,injected via numbers.json,,verified
+C041,Fukushima,Case1,T2 minimum permutation p,0.421,p-value,journal rounding,did_permutation_inference.csv,t2_perm_p_min,injected via numbers.json,,verified
+C042,Fukushima,Table 2,min pre-trend p,0.035,p-value,journal rounding,pretrend_wald_tests.csv,t1_pretrend_min,injected via numbers.json,,verified
+C043,Fukushima,Table 2,scope-robustness ATT,-0.067,log points,journal rounding,att_summary.csv scope_robustness,t1_scope_att,injected via numbers.json,,verified
+C044,Fukushima,Case1,aggregate SC gap,-0.060,log points,journal rounding,fukushima/results/sc_aggregate.csv,sc_agg_gap,injected via numbers.json,,verified
+C045,Fukushima,Case1,aggregate SC permutation p,0.077,p-value,journal rounding,sc_aggregate.csv,sc_agg_perm_p,injected via numbers.json,,verified
+C046,Fukushima,Case1,cross-fit SC RMSPE ratio,0.045,-,journal rounding,sc_crossfit.csv,sc_agg_crossfit,injected via numbers.json,,verified
+C047,Fukushima,Case1,SC donor pool,25,count,journal rounding,sc_unit_summary.csv,n_sc_donors,injected via numbers.json,,verified
+C048,Fukushima,Case1,age-composition bandwidth,10 percentage points,pp,journal rounding,analyze_fukushima.py config,sc_age_band,injected via numbers.json,,verified
+C049,Fukushima,Case1,units with negative SC gap,8,count,journal rounding,sc_unit_summary.csv,n_sc_neg,injected via numbers.json,,verified
+C050,Fukushima,Case1,permutations,1000,count,journal rounding,analyze_fukushima.py config,n_perm,injected via numbers.json,,verified
+C051,Fukushima,Case1,2011 recorded-rate jump,51,%,journal rounding,acute_2011_decomposition.csv derived,t1_2011_jump_pct,injected via numbers.json,,verified
+C052,Fukushima,Case1/Fig6,observed 2011 deaths,"2,996",deaths,journal rounding,acute_2011_decomposition.csv,t1_obs_2011,injected via numbers.json,,verified
+C053,Fukushima,Case1/Fig6,trend-expected 2011 deaths,"2,060",deaths,journal rounding,acute_2011_decomposition.csv,t1_exp_2011,injected via numbers.json,,verified
+C054,Fukushima,Case1/Fig6,2011 excess,936,deaths,journal rounding,acute_2011_decomposition.csv,t1_excess_2011,injected via numbers.json,,verified
+C055,Fukushima,Case1,direct disaster deaths 2011,732,deaths,journal rounding,acute_2011_decomposition.csv,t1_direct_2011,injected via numbers.json,,verified
+C056,Fukushima,Case1,residual 2011 deaths,204,deaths,journal rounding,acute_2011_decomposition.csv,t1_resid_2011,injected via numbers.json,,verified
+C057,Fukushima,Case1,direct share of excess,78,%,journal rounding,derived,t1_direct_share_pct,injected via numbers.json,,verified
+C058,Fukushima,Case1,post-2011 cumulative excess (negative),"1,322",deaths,journal rounding,att_summary.csv excess_deaths,t1_main_excess_post,injected via numbers.json,,verified
+C059,Fukushima,Table 2,excess per year,165,deaths,journal rounding,att_summary.csv,t1_main_excess_per_year,injected via numbers.json,,verified
+C060,Fukushima,Case1/Table 3,certified disaster-related deaths,2350,deaths,journal rounding,reconstruction_related_deaths_fukushima.csv (external),ra_related_deaths,injected via numbers.json,,verified
+C061,Fukushima,Case1,RA data date,"February 13, 2026",date,journal rounding,external source,ra_date,injected via numbers.json,,verified
+C062,Fukushima,Refs,RA release year,2026,year,journal rounding,external source,ra_year,injected via numbers.json,,verified
+C064,Fukushima,Refs,Fukushima Pref. report year,2014,year,journal rounding,external source,fdr_year,injected via numbers.json,,verified
+C065,Fukushima,Case1,prefecture report no.,1260,-,journal rounding,external source,fdr_no,injected via numbers.json,,verified
+C067,Fukushima,Table 3,THJ best estimate worldwide cancer deaths,130,deaths,journal rounding,external published estimate (Ten Hoeve & Jacobson),thj_best,injected via numbers.json,,verified
+C068,Fukushima,Table 3,THJ range,"15-1,100",deaths,journal rounding,external published estimate,thj_range,injected via numbers.json,,verified
+C069,Fukushima,Table 3,THJ averted by evacuation,28,deaths,journal rounding,external published estimate,thj_averted_best,injected via numbers.json,,verified
+C070,Fukushima,Table 3,THJ averted range,3-245,deaths,journal rounding,external published estimate,thj_averted_range,injected via numbers.json,,verified
+C071,Kansas,Design/Case2,pre-treatment period,1997-2012,years,journal rounding,kansas/data/state_panel.csv,ks_pre_years,injected via numbers.json,,verified
+C072,Kansas,Case2,donor states excluded,16,count,journal rounding,analyze_kansas.py,ks_n_excluded,injected via numbers.json,,verified
+C073,Kansas,Case2/Table 4,donor pool size,33,count,journal rounding,kansas/results/analysis_summary.json,ks_n_donors,injected via numbers.json,,verified
+C074,Kansas,Case2/Table 4,IIT revenue gap,27,%,journal rounding,analysis_summary.json derived,ks_iit_pct,injected via numbers.json,,verified
+C075,Kansas,Case2/Table 4,IIT permutation p,0.03,p-value,journal rounding,sc_permutation_ln_real_iit_pc.csv,ks_iit_perm_p,injected via numbers.json,,verified
+C076,Kansas,Case2,all-state pool IIT gap,26,%,journal rounding,analysis_summary.json,ks_iit_pct_all,injected via numbers.json,,verified
+C077,Kansas,Case2,per-capita gap 2013,91,USD,journal rounding,state_panel + SC path,ks_iit_gap_2013,injected via numbers.json,,verified
+C078,Kansas,Case2,per-capita gap 2016,422,USD,journal rounding,state_panel + SC path,ks_iit_gap_2016,injected via numbers.json,,verified
+C079,Kansas,Case2,cumulative counterfactual gap,4.6,USD bn,journal rounding,analysis_summary.json,ks_iit_cum_bn,injected via numbers.json,,verified
+C080,Kansas,Case2/Table 4,total tax revenue gap,3.0,%,journal rounding,analysis_summary.json,ks_tax_pct,injected via numbers.json,,verified
+C081,Kansas,Table 4,total tax permutation p,0.18,p-value,journal rounding,sc_permutation_ln_real_tax_pc.csv,ks_tax_perm_p,injected via numbers.json,,verified
+C082,Kansas,Case2/Table 4,real GDP pc gap,+1.5,%,journal rounding,analysis_summary.json,ks_gdp_pct,injected via numbers.json,,verified
+C083,Kansas,Table 4,GDP permutation p,0.71,p-value,journal rounding,sc_permutation_ln_rgdp_pc.csv,ks_gdp_perm_p,injected via numbers.json,,verified
+C084,Kansas,Case2/Table 4,employment gap,-1.3,%,journal rounding,analysis_summary.json,ks_emp_pct,injected via numbers.json,,verified
+C085,Kansas,Table 4,employment permutation p,0.47,p-value,journal rounding,sc_permutation_ln_emp.csv,ks_emp_perm_p,injected via numbers.json,,verified
+C086,Kansas,Table 4,in-time placebo min p,0.006,p-value,journal rounding,placebo_in_time.csv,ks_placebo_min,injected via numbers.json,,verified
+C087,Kansas,Table 4,in-time placebo max p,0.056,p-value,journal rounding,placebo_in_time.csv,ks_placebo_max,injected via numbers.json,,verified
+C088,Kansas,Table 4,IIT in-time placebo p,0.103,p-value,journal rounding,placebo_in_time.csv,ks_iit_placebo,injected via numbers.json,,verified
+C089,Kansas,Case2/Table 4,LOO min gap,-0.322,log pts,journal rounding,loo_robustness.csv,ks_iit_loo_min,injected via numbers.json,,verified
+C090,Kansas,Case2/Table 4,LOO max gap,-0.291,log pts,journal rounding,loo_robustness.csv,ks_iit_loo_max,injected via numbers.json,,verified
+C091,Kansas,Table 4,pre-RMSPE,0.025,-,journal rounding,analysis_summary.json,ks_iit_rmspe,injected via numbers.json,,verified

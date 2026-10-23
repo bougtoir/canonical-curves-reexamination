@@ -1,0 +1,38 @@
+{
+  "rows": 1377,
+  "columns": [
+    "state",
+    "fips",
+    "year",
+    "rgdp",
+    "ngdp",
+    "pop",
+    "pinc",
+    "nonfarm_emp",
+    "unemp_rate",
+    "tax_total",
+    "tax_indiv_inc",
+    "tax_corp_inc",
+    "tax_sales",
+    "cpi"
+  ],
+  "year_min": 1997,
+  "year_max": 2023,
+  "states": 51,
+  "missing_cells": {
+    "state": 0,
+    "fips": 0,
+    "year": 0,
+    "rgdp": 0,
+    "ngdp": 0,
+    "pop": 0,
+    "pinc": 3,
+    "nonfarm_emp": 0,
+    "unemp_rate": 0,
+    "tax_total": 27,
+    "tax_indiv_inc": 95,
+    "tax_corp_inc": 67,
+    "tax_sales": 74,
+    "cpi": 0
+  }
+}

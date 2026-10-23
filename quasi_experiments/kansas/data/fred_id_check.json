@@ -1,0 +1,1328 @@
+{
+  "AL": {
+    "rgdp": {
+      "series": "ALRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "ALNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "ALPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "ALOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "ALNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "ALUR",
+      "obtained": true
+    }
+  },
+  "AK": {
+    "rgdp": {
+      "series": "AKRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "AKNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "AKPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "AKOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "AKNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "AKUR",
+      "obtained": true
+    }
+  },
+  "AZ": {
+    "rgdp": {
+      "series": "AZRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "AZNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "AZPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "AZOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "AZNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "AZUR",
+      "obtained": true
+    }
+  },
+  "AR": {
+    "rgdp": {
+      "series": "ARRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "ARNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "ARPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "AROTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "ARNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "ARUR",
+      "obtained": true
+    }
+  },
+  "CA": {
+    "rgdp": {
+      "series": "CARGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "CANGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "CAPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "CAOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "CANA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "CAUR",
+      "obtained": true
+    }
+  },
+  "CO": {
+    "rgdp": {
+      "series": "CORGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "CONGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "COPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "COOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "CONA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "COUR",
+      "obtained": true
+    }
+  },
+  "CT": {
+    "rgdp": {
+      "series": "CTRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "CTNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "CTPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "CTOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "CTNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "CTUR",
+      "obtained": true
+    }
+  },
+  "DE": {
+    "rgdp": {
+      "series": "DERGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "DENGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "DEPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "DEOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "DENA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "DEUR",
+      "obtained": true
+    }
+  },
+  "DC": {
+    "rgdp": {
+      "series": "DCRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "DCNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "DCPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "DCOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "DCNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "DCUR",
+      "obtained": true
+    }
+  },
+  "FL": {
+    "rgdp": {
+      "series": "FLRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "FLNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "FLPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "FLOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "FLNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "FLUR",
+      "obtained": true
+    }
+  },
+  "GA": {
+    "rgdp": {
+      "series": "GARGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "GANGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "GAPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "GAOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "GANA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "GAUR",
+      "obtained": true
+    }
+  },
+  "HI": {
+    "rgdp": {
+      "series": "HIRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "HINGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "HIPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "HIOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "HINA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "HIUR",
+      "obtained": true
+    }
+  },
+  "ID": {
+    "rgdp": {
+      "series": "IDRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "IDNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "IDPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "IDOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "IDNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "IDUR",
+      "obtained": true
+    }
+  },
+  "IL": {
+    "rgdp": {
+      "series": "ILRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "ILNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "ILPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "ILOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "ILNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "ILUR",
+      "obtained": true
+    }
+  },
+  "IN": {
+    "rgdp": {
+      "series": "INRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "INNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "INPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "INOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "INNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "INUR",
+      "obtained": true
+    }
+  },
+  "IA": {
+    "rgdp": {
+      "series": "IARGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "IANGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "IAPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "IAOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "IANA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "IAUR",
+      "obtained": true
+    }
+  },
+  "KS": {
+    "rgdp": {
+      "series": "KSRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "KSNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "KSPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "KSOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "KSNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "KSUR",
+      "obtained": true
+    }
+  },
+  "KY": {
+    "rgdp": {
+      "series": "KYRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "KYNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "KYPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "KYOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "KYNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "KYUR",
+      "obtained": true
+    }
+  },
+  "LA": {
+    "rgdp": {
+      "series": "LARGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "LANGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "LAPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "LAOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "LANA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "LAUR",
+      "obtained": true
+    }
+  },
+  "ME": {
+    "rgdp": {
+      "series": "MERGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "MENGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "MEPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "MEOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "MENA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "MEUR",
+      "obtained": true
+    }
+  },
+  "MD": {
+    "rgdp": {
+      "series": "MDRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "MDNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "MDPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "MDOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "MDNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "MDUR",
+      "obtained": true
+    }
+  },
+  "MA": {
+    "rgdp": {
+      "series": "MARGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "MANGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "MAPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "MAOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "MANA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "MAUR",
+      "obtained": true
+    }
+  },
+  "MI": {
+    "rgdp": {
+      "series": "MIRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "MINGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "MIPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "MIOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "MINA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "MIUR",
+      "obtained": true
+    }
+  },
+  "MN": {
+    "rgdp": {
+      "series": "MNRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "MNNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "MNPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "MNOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "MNNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "MNUR",
+      "obtained": true
+    }
+  },
+  "MS": {
+    "rgdp": {
+      "series": "MSRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "MSNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "MSPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "MSOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "MSNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "MSUR",
+      "obtained": true
+    }
+  },
+  "MO": {
+    "rgdp": {
+      "series": "MORGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "MONGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "MOPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "MOOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "MONA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "MOUR",
+      "obtained": true
+    }
+  },
+  "MT": {
+    "rgdp": {
+      "series": "MTRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "MTNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "MTPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "MTOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "MTNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "MTUR",
+      "obtained": true
+    }
+  },
+  "NE": {
+    "rgdp": {
+      "series": "NERGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "NENGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "NEPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "NEOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "NENA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "NEUR",
+      "obtained": true
+    }
+  },
+  "NV": {
+    "rgdp": {
+      "series": "NVRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "NVNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "NVPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "NVOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "NVNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "NVUR",
+      "obtained": true
+    }
+  },
+  "NH": {
+    "rgdp": {
+      "series": "NHRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "NHNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "NHPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "NHOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "NHNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "NHUR",
+      "obtained": true
+    }
+  },
+  "NJ": {
+    "rgdp": {
+      "series": "NJRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "NJNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "NJPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "NJOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "NJNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "NJUR",
+      "obtained": true
+    }
+  },
+  "NM": {
+    "rgdp": {
+      "series": "NMRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "NMNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "NMPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "NMOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "NMNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "NMUR",
+      "obtained": true
+    }
+  },
+  "NY": {
+    "rgdp": {
+      "series": "NYRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "NYNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "NYPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "NYOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "NYNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "NYUR",
+      "obtained": true
+    }
+  },
+  "NC": {
+    "rgdp": {
+      "series": "NCRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "NCNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "NCPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "NCOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "NCNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "NCUR",
+      "obtained": true
+    }
+  },
+  "ND": {
+    "rgdp": {
+      "series": "NDRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "NDNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "NDPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "NDOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "NDNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "NDUR",
+      "obtained": true
+    }
+  },
+  "OH": {
+    "rgdp": {
+      "series": "OHRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "OHNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "OHPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "OHOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "OHNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "OHUR",
+      "obtained": true
+    }
+  },
+  "OK": {
+    "rgdp": {
+      "series": "OKRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "OKNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "OKPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "OKOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "OKNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "OKUR",
+      "obtained": true
+    }
+  },
+  "OR": {
+    "rgdp": {
+      "series": "ORRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "ORNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "ORPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "OROTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "ORNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "ORUR",
+      "obtained": true
+    }
+  },
+  "PA": {
+    "rgdp": {
+      "series": "PARGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "PANGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "PAPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "PAOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "PANA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "PAUR",
+      "obtained": true
+    }
+  },
+  "RI": {
+    "rgdp": {
+      "series": "RIRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "RINGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "RIPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "RIOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "RINA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "RIUR",
+      "obtained": true
+    }
+  },
+  "SC": {
+    "rgdp": {
+      "series": "SCRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "SCNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "SCPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "SCOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "SCNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "SCUR",
+      "obtained": true
+    }
+  },
+  "SD": {
+    "rgdp": {
+      "series": "SDRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "SDNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "SDPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "SDOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "SDNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "SDUR",
+      "obtained": true
+    }
+  },
+  "TN": {
+    "rgdp": {
+      "series": "TNRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "TNNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "TNPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "TNOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "TNNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "TNUR",
+      "obtained": true
+    }
+  },
+  "TX": {
+    "rgdp": {
+      "series": "TXRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "TXNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "TXPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "TXOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "TXNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "TXUR",
+      "obtained": true
+    }
+  },
+  "UT": {
+    "rgdp": {
+      "series": "UTRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "UTNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "UTPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "UTOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "UTNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "UTUR",
+      "obtained": true
+    }
+  },
+  "VT": {
+    "rgdp": {
+      "series": "VTRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "VTNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "VTPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "VTOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "VTNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "VTUR",
+      "obtained": true
+    }
+  },
+  "VA": {
+    "rgdp": {
+      "series": "VARGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "VANGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "VAPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "VAOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "VANA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "VAUR",
+      "obtained": true
+    }
+  },
+  "WA": {
+    "rgdp": {
+      "series": "WARGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "WANGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "WAPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "WAOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "WANA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "WAUR",
+      "obtained": true
+    }
+  },
+  "WV": {
+    "rgdp": {
+      "series": "WVRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "WVNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "WVPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "WVOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "WVNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "WVUR",
+      "obtained": true
+    }
+  },
+  "WI": {
+    "rgdp": {
+      "series": "WIRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "WINGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "WIPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "WIOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "WINA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "WIUR",
+      "obtained": true
+    }
+  },
+  "WY": {
+    "rgdp": {
+      "series": "WYRGSP",
+      "obtained": true
+    },
+    "ngdp": {
+      "series": "WYNGSP",
+      "obtained": true
+    },
+    "pop": {
+      "series": "WYPOP",
+      "obtained": true
+    },
+    "pinc": {
+      "series": "WYOTOT",
+      "obtained": true
+    },
+    "nonfarm_emp": {
+      "series": "WYNA",
+      "obtained": true
+    },
+    "unemp_rate": {
+      "series": "WYUR",
+      "obtained": true
+    }
+  }
+}

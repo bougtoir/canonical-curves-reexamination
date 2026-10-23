@@ -1,0 +1,17 @@
+study,quartile,actual_percentile,perceived_ability_percentile
+1,bottom,12,57
+1,2nd,37,61
+1,3rd,62,71
+1,top,88,76
+2,bottom,12,67
+2,2nd,32,65
+2,3rd,55,58
+2,top,86,74
+3,bottom,16,67
+3,2nd,35,72
+3,3rd,64,70
+3,top,89,71
+4,bottom,13,55
+4,2nd,39,59
+4,3rd,66,68
+4,top,90,76
