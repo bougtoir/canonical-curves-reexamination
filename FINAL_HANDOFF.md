@@ -2,8 +2,8 @@
 
 - Final title: When Policy Depends on a Curve: Comparing Functional-Form Dependence in Fukushima Evacuation and Kansas Tax Reform
 - Article type: Original research article (explicitly comparative)
-- Abstract word count: 155
-- Manuscript word count (all inclusive, per docx check): 6445
+- Abstract word count: 94
+- Manuscript word count (all inclusive, per docx check): 6384
 - Main-text word count, excluding abstract, references, captions, and
   tables: 3120
 - Figures: 7 main figures plus Appendix Figure A1
@@ -28,8 +28,10 @@
   (A1) embedded in the manuscript Appendix section; numbering unchanged;
   no values changed; the separate appendix file is retained internally
   only and is NOT required for submission.
-- Inline manuscript: JCPA_manuscript_inline_FINAL_WITH_APPENDIX.docx
-- Clean separate-figure manuscript: JCPA_manuscript_clean_FINAL_WITH_APPENDIX.docx
+- Formatting pass: 12 pt Times New Roman body, double-spaced manuscript,
+  minimal horizontal table rules, abstract 94 words (<=100).
+- Inline manuscript: JCPA_manuscript_inline_FINAL_WITH_APPENDIX_FORMATTED.docx
+- Clean separate-figure manuscript: JCPA_manuscript_clean_FINAL_WITH_APPENDIX_FORMATTED.docx
 - Cover letter: JCPA_cover_letter_FINAL.docx
 - Title page: JCPA_title_page_FINAL.docx
 - Editable tables: JCPA_tables_FINAL.docx

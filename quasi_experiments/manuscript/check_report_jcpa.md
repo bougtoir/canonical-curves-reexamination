@@ -1,8 +1,8 @@
 # Journal of Comparative Policy Analysis manuscript check report
 
-- Abstract word count: 155
+- Abstract word count: 94
 - Keyword count: 6
-- All-inclusive main manuscript word count: 6445
+- All-inclusive main manuscript word count: 6384
 - Main inline figures: 8
 - Main inline tables: 7
 
@@ -58,7 +58,7 @@
 - Crossref verification 200: 10.3390/su5030955
 - URL verification 403: https://iris.who.int/handle/10665/78218
 - JCPA (Taylor & Francis) original research article; explicitly comparative design required.
-- Guideline target: explicit comparative analysis, abstract under 250 words, 5-6 keywords, no more than three heading levels, APA-style author-date references, Word source, double-anonymized manuscript, and an 8,000-word maximum.
+- Guideline target: explicit comparative analysis, abstract at most 100 words, 5-6 keywords, no more than three heading levels, APA-style author-date references, Word source, double-anonymized manuscript, 12-point font, double spacing, and an 8,000-word maximum.
 - The main manuscript is anonymized; author details and the public repository URL are confined to editorial submission files.
 - Measured municipal mortality, certified disaster-related deaths, and projected radiological deaths remain distinct estimands.
 

@@ -10,26 +10,18 @@ TITLE = (
 )
 
 ABSTRACT = (
-    "Policies frequently depend on the shape of an empirical relationship, "
-    "not merely on an association. When the decision-relevant shape - a "
-    "threshold, slope, turning point, or extrapolated response - is less "
-    "securely identified than the policy assumes, the policy becomes "
-    "functionally dependent on that form. This article asks how "
-    "functional-form dependence enters policy decisions under different "
-    "evidentiary, institutional, and consequence structures. A structured "
-    "focused comparison of post-Fukushima evacuation under low-dose "
-    "radiation-risk assumptions and the Kansas tax reform under a claimed "
-    "fiscal response curve applies common dimensions: decision-relevant "
-    "feature, location of uncertainty, transportability, decision "
-    "sensitivity, consequence asymmetry, reversibility, and learning "
-    "capacity. The cases were purposively selected for maximum substantive "
-    "contrast rather than representativeness. Both exhibit the same "
-    "mechanism, but its policy significance differs with the joint "
-    "configuration of extrapolation, consequence asymmetry, reversibility, "
-    "and observability. A purposive mapping of {n_curves} canonical "
-    "relationships supplies background motivation. The comparison yields "
-    "propositions and lessons for comparative policy appraisal under "
-    "uncertain functional form."
+    "Policies often depend on the shape of an empirical relationship, not "
+    "merely on an association. I define functional-form dependence as "
+    "reliance on a threshold, slope, turning point, or extrapolated "
+    "response that is less securely identified than the policy assumes. A "
+    "structured comparison of post-Fukushima evacuation and Kansas tax "
+    "reform examines decision-relevant shape, uncertainty, "
+    "transportability, consequence asymmetry, reversibility, and learning "
+    "capacity. The cases share the same mechanism but differ in its "
+    "policy significance. A purposive mapping of {n_curves} canonical "
+    "relationships provides background motivation. The comparison yields "
+    "transferable lessons for policy appraisal under uncertain functional "
+    "form."
 )
 
 KEYWORDS = (

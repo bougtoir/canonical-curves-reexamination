@@ -347,20 +347,28 @@ def set_style_font(doc: Document, style_name: str, size: float, bold: bool = Fal
     style._element.rPr.rFonts.set(qn("w:eastAsia"), "Times New Roman")
 
 
-def configure_document(doc: Document) -> None:
+def configure_document(doc: Document, manuscript: bool = False) -> None:
     section = doc.sections[0]
     section.top_margin = Inches(0.8)
     section.bottom_margin = Inches(0.8)
     section.left_margin = Inches(0.9)
     section.right_margin = Inches(0.9)
     for style_name, size, bold in [
-        ("Normal", 10, False),
+        ("Normal", 12, False),
         ("Title", 14, True),
         ("Heading 1", 12, True),
-        ("Heading 2", 11, True),
+        ("Heading 2", 12, True),
         ("Caption", 9, False),
     ]:
         set_style_font(doc, style_name, size, bold)
+    if manuscript:
+        for style_name, spacing in [
+            ("Normal", 2.0),
+            ("Heading 1", 2.0),
+            ("Heading 2", 2.0),
+            ("Caption", 1.15),
+        ]:
+            doc.styles[style_name].paragraph_format.line_spacing = spacing
     doc.styles["Normal"].paragraph_format.space_after = Pt(6)
     doc.styles["Caption"].paragraph_format.space_before = Pt(12)
     doc.styles["Caption"].paragraph_format.space_after = Pt(6)
@@ -947,9 +955,25 @@ def table_data(numbers: dict[str, Any]) -> dict[str, pd.DataFrame]:
 
 def add_table(doc: Document, frame: pd.DataFrame) -> None:
     table = doc.add_table(rows=1, cols=len(frame.columns))
-    table.style = "Table Grid"
+    tblPr = table._tbl.tblPr
+    borders = OxmlElement("w:tblBorders")
+    for edge in ("top", "left", "bottom", "right", "insideH", "insideV"):
+        el = OxmlElement(f"w:{edge}")
+        if edge in ("top", "bottom"):
+            el.set(qn("w:val"), "single")
+            el.set(qn("w:sz"), "8")
+        else:
+            el.set(qn("w:val"), "none")
+        borders.append(el)
+    tblPr.append(borders)
     for cell, name in zip(table.rows[0].cells, frame.columns):
         cell.text = str(name)
+        tcBorders = OxmlElement("w:tcBorders")
+        bottom = OxmlElement("w:bottom")
+        bottom.set(qn("w:val"), "single")
+        bottom.set(qn("w:sz"), "8")
+        tcBorders.append(bottom)
+        cell._tc.get_or_add_tcPr().append(tcBorders)
     for _, row in frame.iterrows():
         cells = table.add_row().cells
         for cell, value in zip(cells, row):
@@ -1040,7 +1064,7 @@ def add_heading_or_para(doc: Document, kind: str, text: str, numbers: dict[str, 
 def build_docx(numbers: dict[str, Any], tables: dict[str, pd.DataFrame], figures: dict[str, Path]) -> None:
     def render(path: Path, inline: bool, separate_tables: bool = False) -> None:
         doc = Document()
-        configure_document(doc)
+        configure_document(doc, manuscript=True)
         doc.core_properties.author = ""
         doc.core_properties.last_modified_by = ""
         doc.add_heading(format_text(text.TITLE, numbers), level=0)

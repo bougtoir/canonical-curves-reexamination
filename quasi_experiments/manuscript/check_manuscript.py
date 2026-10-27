@@ -58,16 +58,17 @@ JOURNAL_CONFIG = {
     },
     "jcpa": {
         "name": "Journal of Comparative Policy Analysis",
-        "abstract_range": (150, 250),
+        "abstract_range": (1, 100),
         "keywords_range": (5, 6),
         "word_limit": 8000,
         "title_marker": "Journal: Journal of Comparative Policy Analysis",
         "expected_main_tables": ["1", "2", "3", "4", "5"],
         "guideline_note": (
-            "Guideline target: explicit comparative analysis, abstract under "
-            "250 words, 5-6 keywords, no more than three heading levels, "
+            "Guideline target: explicit comparative analysis, abstract at "
+            "most 100 words, 5-6 keywords, no more than three heading levels, "
             "APA-style author-date references, Word source, double-anonymized "
-            "manuscript, and an 8,000-word maximum."
+            "manuscript, 12-point font, double spacing, and an 8,000-word "
+            "maximum."
         ),
         "article_note": (
             "JCPA (Taylor & Francis) original research article; explicitly "

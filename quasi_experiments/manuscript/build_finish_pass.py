@@ -49,9 +49,9 @@ if JOURNAL == "policy_sciences":
 elif JOURNAL == "jcpa":
     FINAL_FILES = {
         ROOT / "manuscript_jcpa.docx": ROOT
-        / "JCPA_manuscript_inline_FINAL_WITH_APPENDIX.docx",
+        / "JCPA_manuscript_inline_FINAL_WITH_APPENDIX_FORMATTED.docx",
         ROOT / "manuscript_jcpa_figures_separate.docx": ROOT
-        / "JCPA_manuscript_clean_FINAL_WITH_APPENDIX.docx",
+        / "JCPA_manuscript_clean_FINAL_WITH_APPENDIX_FORMATTED.docx",
         ROOT / "cover_letter_jcpa.docx": ROOT / "JCPA_cover_letter_FINAL.docx",
         ROOT / "title_page_jcpa.docx": ROOT / "JCPA_title_page_FINAL.docx",
         ROOT / "tables_jcpa.docx": ROOT / "JCPA_tables_FINAL.docx",
@@ -489,8 +489,10 @@ def write_handoff_jcpa(numbers: dict[str, object], ready: bool) -> None:
   (A1) embedded in the manuscript Appendix section; numbering unchanged;
   no values changed; the separate appendix file is retained internally
   only and is NOT required for submission.
-- Inline manuscript: JCPA_manuscript_inline_FINAL_WITH_APPENDIX.docx
-- Clean separate-figure manuscript: JCPA_manuscript_clean_FINAL_WITH_APPENDIX.docx
+- Formatting pass: 12 pt Times New Roman body, double-spaced manuscript,
+  minimal horizontal table rules, abstract {abstract_words} words (<=100).
+- Inline manuscript: JCPA_manuscript_inline_FINAL_WITH_APPENDIX_FORMATTED.docx
+- Clean separate-figure manuscript: JCPA_manuscript_clean_FINAL_WITH_APPENDIX_FORMATTED.docx
 - Cover letter: JCPA_cover_letter_FINAL.docx
 - Title page: JCPA_title_page_FINAL.docx
 - Editable tables: JCPA_tables_FINAL.docx
@@ -662,6 +664,7 @@ def build_final_zip() -> None:
             "APPENDIX_CITATION_INVENTORY.md",
             "APPENDIX_ITEM_INVENTORY.md",
             "APPENDIX_INTEGRATION_QC.md",
+            "JCPA_FORMAT_COMPLIANCE_FINAL.md",
             "FINAL_HANDOFF.md",
             "README_submission_jcpa.txt",
             "review_archive_policy_sciences.zip",
