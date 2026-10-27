@@ -1104,6 +1104,22 @@ def build_docx(numbers: dict[str, Any], tables: dict[str, pd.DataFrame], figures
                     style="Caption",
                 )
                 add_table(doc, frame)
+        if JOURNAL == "jcpa":
+            doc.add_page_break()
+            doc.add_heading(
+                format_text(text.APPENDIX[0][1], numbers), level=1
+            )
+            for kind, value in text.APPENDIX[1:]:
+                doc.add_paragraph(
+                    format_text(text.CAPTIONS[value], numbers),
+                    style="Caption",
+                )
+                if kind == "table":
+                    add_table(doc, tables[value])
+                elif kind == "fig":
+                    doc.add_picture(
+                        str(figures[value]), width=Inches(6.4)
+                    )
         path.parent.mkdir(parents=True, exist_ok=True)
         doc.save(path)
 

@@ -40,3 +40,9 @@ All values checked against canonical outputs via `numbers.json`
 
 No unresolved material numerical contradictions across text, tables,
 figures, captions, appendix, cover letter.
+
+## Appendix integration update
+
+All cited Appendix items (Tables A1, A2; Figure A1) are now embedded in the
+main manuscript Appendix section. Values unchanged; single numbers.json
+source guarantees text/Appendix consistency.

@@ -2,9 +2,9 @@
 
 - Abstract word count: 155
 - Keyword count: 6
-- All-inclusive main manuscript word count: 5601
-- Main inline figures: 7
-- Main inline tables: 5
+- All-inclusive main manuscript word count: 6445
+- Main inline figures: 8
+- Main inline tables: 7
 
 ## Independent headline values
 - share_not_robust_pct: 68

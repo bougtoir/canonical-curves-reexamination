@@ -3,9 +3,9 @@
 - Final title: When Policy Depends on a Curve: Comparing Functional-Form Dependence in Fukushima Evacuation and Kansas Tax Reform
 - Article type: Original research article (explicitly comparative)
 - Abstract word count: 155
-- Manuscript word count (all inclusive, per docx check): 5631
+- Manuscript word count (all inclusive, per docx check): 6445
 - Main-text word count, excluding abstract, references, captions, and
-  tables: 3150
+  tables: 3120
 - Figures: 7 main figures plus Appendix Figure A1
 - Tables: 5 main tables plus Appendix Tables A1 and A2
 - Figure numbering: Figure 1 comparative appraisal sequence; Figure 2
@@ -24,16 +24,20 @@
   cases, but its policy significance depends on the joint configuration
   of decision sensitivity, consequence asymmetry, reversibility,
   transportability, and learning capacity.
-- Supplementary items: JCPA_appendix_FINAL.docx, editable figures PPTX,
-  editable tables DOCX, submission statements, reviewer archive.
-- Inline manuscript: JCPA_manuscript_inline_FINAL.docx
-- Clean separate-figure manuscript: JCPA_manuscript_clean_FINAL.docx
+- Appendix integration: 2 Appendix Tables (A1, A2) and 1 Appendix Figure
+  (A1) embedded in the manuscript Appendix section; numbering unchanged;
+  no values changed; the separate appendix file is retained internally
+  only and is NOT required for submission.
+- Inline manuscript: JCPA_manuscript_inline_FINAL_WITH_APPENDIX.docx
+- Clean separate-figure manuscript: JCPA_manuscript_clean_FINAL_WITH_APPENDIX.docx
 - Cover letter: JCPA_cover_letter_FINAL.docx
 - Title page: JCPA_title_page_FINAL.docx
-- Supplement: JCPA_appendix_FINAL.docx
 - Editable tables: JCPA_tables_FINAL.docx
 - Editable figures: JCPA_figures_FINAL.pptx
 - Submission statements: JCPA_submission_statements_FINAL.docx
+- Files to upload to JCPA: inline manuscript DOCX (or clean version per
+  portal), cover letter, title page, editable figures PPTX, editable
+  tables DOCX, submission statements.
 
 ## Major changes from the Policy Studies version
 
@@ -72,4 +76,4 @@ injected from numbers.json; the analysis freeze was respected.
 
 EXPLICITLY COMPARATIVE: YES
 
-READY FOR JCPA SUBMISSION
+READY FOR JCPA RESUBMISSION

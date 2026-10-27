@@ -411,17 +411,35 @@ def main() -> int:
         failures.append(f"Expected eight manuscript TIFFs, found {len(tiffs)}.")
 
     doc = Document(MAIN_DOCX)
-    if "Appendix" in [paragraph.text.strip() for paragraph in doc.paragraphs]:
-        failures.append("Appendix heading found in the main manuscript DOCX.")
-    if len(doc.inline_shapes) != 7:
-        failures.append(
-            f"Expected seven inline figures in the main manuscript, found {len(doc.inline_shapes)}."
-        )
-    if len(doc.tables) != len(expected_main_tables):
-        failures.append(
-            f"Expected {len(expected_main_tables)} inline tables in the main "
-            f"manuscript, found {len(doc.tables)}."
-        )
+    if JOURNAL == "jcpa":
+        paragraphs = [paragraph.text.strip() for paragraph in doc.paragraphs]
+        if not any(p.startswith("Appendix") for p in paragraphs):
+            failures.append(
+                "Appendix section missing from the main manuscript DOCX."
+            )
+        if len(doc.inline_shapes) != 8:
+            failures.append(
+                "Expected eight inline figures (7 main + Appendix A1) in "
+                f"the main manuscript, found {len(doc.inline_shapes)}."
+            )
+        if len(doc.tables) != len(expected_main_tables) + 2:
+            failures.append(
+                f"Expected {len(expected_main_tables) + 2} inline tables "
+                "(5 main + Appendix A1/A2) in the main manuscript, found "
+                f"{len(doc.tables)}."
+            )
+    else:
+        if "Appendix" in [paragraph.text.strip() for paragraph in doc.paragraphs]:
+            failures.append("Appendix heading found in the main manuscript DOCX.")
+        if len(doc.inline_shapes) != 7:
+            failures.append(
+                f"Expected seven inline figures in the main manuscript, found {len(doc.inline_shapes)}."
+            )
+        if len(doc.tables) != len(expected_main_tables):
+            failures.append(
+                f"Expected {len(expected_main_tables)} inline tables in the main "
+                f"manuscript, found {len(doc.tables)}."
+            )
     appendix = Document(APPENDIX_DOCX)
     if len(appendix.inline_shapes) != 1:
         failures.append(

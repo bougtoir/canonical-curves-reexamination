@@ -48,16 +48,16 @@ if JOURNAL == "policy_sciences":
     }
 elif JOURNAL == "jcpa":
     FINAL_FILES = {
-        ROOT / "manuscript_jcpa.docx": ROOT / "JCPA_manuscript_inline.docx",
+        ROOT / "manuscript_jcpa.docx": ROOT
+        / "JCPA_manuscript_inline_FINAL_WITH_APPENDIX.docx",
         ROOT / "manuscript_jcpa_figures_separate.docx": ROOT
-        / "JCPA_manuscript_clean.docx",
-        ROOT / "cover_letter_jcpa.docx": ROOT / "JCPA_cover_letter.docx",
-        ROOT / "title_page_jcpa.docx": ROOT / "JCPA_title_page.docx",
-        ROOT / "appendix_jcpa.docx": ROOT / "JCPA_appendix.docx",
-        ROOT / "tables_jcpa.docx": ROOT / "JCPA_tables.docx",
-        ROOT / "figures_jcpa.pptx": ROOT / "JCPA_figures.pptx",
+        / "JCPA_manuscript_clean_FINAL_WITH_APPENDIX.docx",
+        ROOT / "cover_letter_jcpa.docx": ROOT / "JCPA_cover_letter_FINAL.docx",
+        ROOT / "title_page_jcpa.docx": ROOT / "JCPA_title_page_FINAL.docx",
+        ROOT / "tables_jcpa.docx": ROOT / "JCPA_tables_FINAL.docx",
+        ROOT / "figures_jcpa.pptx": ROOT / "JCPA_figures_FINAL.pptx",
         ROOT / "submission_statements_jcpa.docx": ROOT
-        / "JCPA_submission_statements.docx",
+        / "JCPA_submission_statements_FINAL.docx",
     }
 elif JOURNAL == "policy_studies":
     FINAL_FILES = {
@@ -447,7 +447,7 @@ def write_handoff_jcpa(numbers: dict[str, object], ready: bool) -> None:
     abstract_words = word_count(format_text(text.ABSTRACT, numbers))
     main_words = main_text_word_count(numbers)
     final_line = (
-        "READY FOR JCPA SUBMISSION"
+        "READY FOR JCPA RESUBMISSION"
         if ready
         else "NOT READY — SPECIFIC CORRECTIONS REQUIRED"
     )
@@ -485,16 +485,20 @@ def write_handoff_jcpa(numbers: dict[str, object], ready: bool) -> None:
   cases, but its policy significance depends on the joint configuration
   of decision sensitivity, consequence asymmetry, reversibility,
   transportability, and learning capacity.
-- Supplementary items: JCPA_appendix.docx, editable figures PPTX,
-  editable tables DOCX, submission statements, reviewer archive.
-- Inline manuscript: JCPA_manuscript_inline.docx
-- Clean separate-figure manuscript: JCPA_manuscript_clean.docx
-- Cover letter: JCPA_cover_letter.docx
-- Title page: JCPA_title_page.docx
-- Supplement: JCPA_appendix.docx
-- Editable tables: JCPA_tables.docx
-- Editable figures: JCPA_figures.pptx
-- Submission statements: JCPA_submission_statements.docx
+- Appendix integration: 2 Appendix Tables (A1, A2) and 1 Appendix Figure
+  (A1) embedded in the manuscript Appendix section; numbering unchanged;
+  no values changed; the separate appendix file is retained internally
+  only and is NOT required for submission.
+- Inline manuscript: JCPA_manuscript_inline_FINAL_WITH_APPENDIX.docx
+- Clean separate-figure manuscript: JCPA_manuscript_clean_FINAL_WITH_APPENDIX.docx
+- Cover letter: JCPA_cover_letter_FINAL.docx
+- Title page: JCPA_title_page_FINAL.docx
+- Editable tables: JCPA_tables_FINAL.docx
+- Editable figures: JCPA_figures_FINAL.pptx
+- Submission statements: JCPA_submission_statements_FINAL.docx
+- Files to upload to JCPA: inline manuscript DOCX (or clean version per
+  portal), cover letter, title page, editable figures PPTX, editable
+  tables DOCX, submission statements.
 
 ## Major changes from the Policy Studies version
 
@@ -647,6 +651,17 @@ def build_final_zip() -> None:
             "CLAIM_CALIBRATION_AUDIT.md",
             "REFERENCE_AUDIT.md",
             "DATA_TEXT_FIGURE_CONSISTENCY.md",
+            "CANONICAL_PIPELINE_MAP.md",
+            "PUBLIC_DATA_REPRODUCIBILITY_AUDIT.md",
+            "HARDCODE_AND_NUMERIC_PROVENANCE_AUDIT.md",
+            "numeric_claim_registry.csv",
+            "DATA_TEXT_FIGURE_CONSISTENCY_FINAL.md",
+            "HOSTILE_JCPA_REVIEW_FINAL.md",
+            "REFERENCE_AND_SOURCE_AUDIT_FINAL.md",
+            "JCPA_FINAL_READINESS.md",
+            "APPENDIX_CITATION_INVENTORY.md",
+            "APPENDIX_ITEM_INVENTORY.md",
+            "APPENDIX_INTEGRATION_QC.md",
             "FINAL_HANDOFF.md",
             "README_submission_jcpa.txt",
             "review_archive_policy_sciences.zip",
