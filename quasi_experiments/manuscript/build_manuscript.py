@@ -917,6 +917,8 @@ def table_data(numbers: dict[str, Any]) -> dict[str, pd.DataFrame]:
     a2["Municipality"] = a2.muni_code.astype(str).str.zfill(5).map(ROMAJI_BY_CODE).fillna("Municipality")
     a2 = a2.rename(columns={"n_donors": "Donors", "rmspe_pre": "Pre-RMSPE", "rmspe_post": "Post-RMSPE", "post_mean_gap": "Mean gap 2012-2019", "perm_p": "Permutation p"})
     a2 = a2[["Municipality", "Donors", "Pre-RMSPE", "Post-RMSPE", "Mean gap 2012-2019", "Permutation p"]].copy()
+    for col in ["Pre-RMSPE", "Post-RMSPE", "Mean gap 2012-2019", "Permutation p"]:
+        a2[col] = pd.to_numeric(a2[col], errors="coerce").round(3)
     for frame in [kansas_table, a1, a2]:
         for column in frame.columns:
             frame[column] = frame[column].map(ascii_clean)
@@ -978,6 +980,19 @@ def add_table(doc: Document, frame: pd.DataFrame) -> None:
         cells = table.add_row().cells
         for cell, value in zip(cells, row):
             cell.text = str(value)
+    usable = Inches(6.7)
+    table.autofit = False
+    for column in table.columns:
+        column.width = int(usable / len(frame.columns))
+    for row in table.rows:
+        for cell in row.cells:
+            cell.width = int(usable / len(frame.columns))
+            for paragraph in cell.paragraphs:
+                paragraph.paragraph_format.line_spacing = 1.0
+                paragraph.paragraph_format.space_after = Pt(2)
+                for run in paragraph.runs:
+                    run.font.name = "Times New Roman"
+                    run.font.size = Pt(9)
 
 
 def omml_run(symbol: str, subscript: str | None = None) -> OxmlElement:
@@ -1400,7 +1415,8 @@ COVER_LETTER_BODY = {
             "The analysis is built on a deliberate maximum-contrast comparison of two "
             "policies that share no sector, institution, or evidentiary tradition: the "
             "post-Fukushima evacuation under low-dose radiation-risk assumptions and the "
-            "Kansas tax reform under a claimed fiscal response curve. The cases were "
+            "Kansas tax reform under assumptions about tax-rate-revenue and "
+            "growth responses. The cases were "
             "selected because both expose the same decision-level mechanism - policy "
             "commitment depended on functional-form assumptions whose decision-relevant "
             "features were incompletely identified - while differing sharply in the "

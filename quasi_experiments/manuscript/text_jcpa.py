@@ -89,7 +89,7 @@ BODY = [
         "p",
         "This article compares post-Fukushima evacuation, justified under "
         "low-dose radiation-risk assumptions, with the Kansas tax reform of "
-        "2012, defended under a claimed tax-rate-revenue and growth response. "
+        "2012, defended under assumptions about tax-rate-revenue and growth responses. "
         "The two policies are deliberately dissimilar - different sectors, "
         "scientific traditions, institutional environments, temporal "
         "dynamics, and consequences of error - yet both committed resources "

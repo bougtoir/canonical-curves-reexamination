@@ -30,8 +30,8 @@
   only and is NOT required for submission.
 - Formatting pass: 12 pt Times New Roman body, double-spaced manuscript,
   minimal horizontal table rules, abstract 94 words (<=100).
-- Inline manuscript: JCPA_manuscript_inline_FINAL_WITH_APPENDIX_FORMATTED.docx
-- Clean separate-figure manuscript: JCPA_manuscript_clean_FINAL_WITH_APPENDIX_FORMATTED.docx
+- Inline manuscript: JCPA_manuscript_inline_FINAL_WITH_APPENDIX_FORMATTED_V2.docx
+- Clean separate-figure manuscript: JCPA_manuscript_clean_FINAL_WITH_APPENDIX_FORMATTED_V2.docx
 - Cover letter: JCPA_cover_letter_FINAL.docx
 - Title page: JCPA_title_page_FINAL.docx
 - Editable tables: JCPA_tables_FINAL.docx
