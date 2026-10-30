@@ -75,6 +75,31 @@ JOURNAL_CONFIG = {
             "comparative design required."
         ),
     },
+    "evidence_policy": {
+        "name": "Evidence & Policy",
+        "abstract_range": (1, 250),
+        "keywords_range": (1, 4),
+        "word_limit": 7000,
+        "display_item_cost": 300,
+        "title_marker": "Journal: Evidence & Policy",
+        "expected_main_tables": ["1", "2"],
+        "expected_main_figures": ["1", "2", "3", "4"],
+        "expected_appendix_figures": ["S1", "S2", "S3", "S4"],
+        "expected_appendix_tables": ["S1", "S2", "S3", "S4", "S5"],
+        "guideline_note": (
+            "Guideline target: research article, structured abstract at "
+            "most 250 words (Introduction, Methods/Data, Analytic plan, "
+            "Results, Conclusion/Implications), up to four key words, "
+            "custom Harvard references, British English, anonymised "
+            "manuscript, 7,000-word maximum including figures and tables "
+            "at roughly 300 words per half-page display item; the online "
+            "supplement does not count toward the limit."
+        ),
+        "article_note": (
+            "Evidence & Policy (Bristol University Press) research "
+            "article; evidence-to-policy framing required."
+        ),
+    },
 }
 CFG = JOURNAL_CONFIG[JOURNAL]
 
@@ -167,7 +192,9 @@ def reference_citation_notes(body: str, numbers: dict[str, object]) -> list[str]
         value.format(**numbers) for value in textmod.REFERENCES
     ):
         author = reference.split(" (", 1)[0].split(",", 1)[0].rstrip(".")
-        year_match = re.search(r"\((\d{4})", reference)
+        year_match = re.search(r"\((\d{4})", reference) or re.search(
+            r",\s*(\d{4}),", reference
+        )
         if not year_match:
             notes.append(f"Reference year could not be parsed: {reference[:80]}")
             continue
@@ -380,14 +407,16 @@ def main() -> int:
         failures.extend(f"- {hit}" for hit in hits)
 
     figures, tables = cited_objects(body)
-    expected_main_figures = [str(index) for index in range(1, 8)]
-    expected_appendix_figures = ["A1"]
+    expected_main_figures = CFG.get(
+        "expected_main_figures", [str(index) for index in range(1, 8)]
+    )
+    expected_appendix_figures = CFG.get("expected_appendix_figures", ["A1"])
     expected_main_tables = CFG["expected_main_tables"]
-    expected_appendix_tables = ["A1", "A2"]
-    main_figures = [value for value in figures if not value.startswith("A")]
-    appendix_figures = [value for value in figures if value.startswith("A")]
-    main_tables = [value for value in tables if not value.startswith("A")]
-    appendix_tables = [value for value in tables if value.startswith("A")]
+    expected_appendix_tables = CFG.get("expected_appendix_tables", ["A1", "A2"])
+    main_figures = [value for value in figures if not value[:1].isalpha()]
+    appendix_figures = [value for value in figures if value[:1].isalpha()]
+    main_tables = [value for value in tables if not value[:1].isalpha()]
+    appendix_tables = [value for value in tables if value[:1].isalpha()]
     if (
         main_figures != expected_main_figures
         or appendix_figures != expected_appendix_figures
@@ -429,6 +458,21 @@ def main() -> int:
                 "(5 main + Appendix A1/A2) in the main manuscript, found "
                 f"{len(doc.tables)}."
             )
+    elif JOURNAL == "evidence_policy":
+        if any(
+            p.text.strip() == "Appendix" for p in doc.paragraphs
+        ):
+            failures.append("Appendix heading found in the main manuscript DOCX.")
+        if len(doc.inline_shapes) != len(expected_main_figures):
+            failures.append(
+                f"Expected {len(expected_main_figures)} inline figures in the "
+                f"main manuscript, found {len(doc.inline_shapes)}."
+            )
+        if len(doc.tables) != len(expected_main_tables):
+            failures.append(
+                f"Expected {len(expected_main_tables)} inline tables in the main "
+                f"manuscript, found {len(doc.tables)}."
+            )
     else:
         if "Appendix" in [paragraph.text.strip() for paragraph in doc.paragraphs]:
             failures.append("Appendix heading found in the main manuscript DOCX.")
@@ -442,13 +486,21 @@ def main() -> int:
                 f"manuscript, found {len(doc.tables)}."
             )
     appendix = Document(APPENDIX_DOCX)
-    if len(appendix.inline_shapes) != 1:
+    expected_appendix_fig_count = (
+        len(expected_appendix_figures) if JOURNAL == "evidence_policy" else 1
+    )
+    expected_appendix_table_count = (
+        len(expected_appendix_tables) if JOURNAL == "evidence_policy" else 2
+    )
+    if len(appendix.inline_shapes) != expected_appendix_fig_count:
         failures.append(
-            f"Expected one inline appendix figure, found {len(appendix.inline_shapes)}."
+            f"Expected {expected_appendix_fig_count} inline appendix "
+            f"figure(s), found {len(appendix.inline_shapes)}."
         )
-    if len(appendix.tables) != 2:
+    if len(appendix.tables) != expected_appendix_table_count:
         failures.append(
-            f"Expected two appendix tables, found {len(appendix.tables)}."
+            f"Expected {expected_appendix_table_count} appendix tables, "
+            f"found {len(appendix.tables)}."
         )
     for generated in [doc, appendix]:
         heading_levels = [
@@ -471,10 +523,15 @@ def main() -> int:
         failures.append("Data availability statement is missing from the main DOCX.")
 
     total_word_count = document_word_count(MAIN_DOCX)
-    if total_word_count > CFG["word_limit"]:
+    display_equivalent = CFG.get("display_item_cost", 0) * (
+        len(doc.inline_shapes) + len(doc.tables)
+    )
+    journal_word_count = total_word_count + display_equivalent
+    if journal_word_count > CFG["word_limit"]:
         failures.append(
-            f"Manuscript word count is {total_word_count}; {CFG['name']} limit is "
-            f"{CFG['word_limit']:,}."
+            f"Manuscript word count is {journal_word_count} "
+            f"({total_word_count} words + {display_equivalent} display-item "
+            f"equivalents); {CFG['name']} limit is {CFG['word_limit']:,}."
         )
     title_text, _ = docx_text(TITLE_DOCX)
     title_count_match = re.search(
@@ -590,6 +647,8 @@ def main() -> int:
         f"- Abstract word count: {abstract_words}",
         f"- Keyword count: {len(keywords)}",
         f"- All-inclusive main manuscript word count: {total_word_count}",
+        f"- Journal-counted word count (incl. display-item equivalents): "
+        f"{journal_word_count}",
         f"- Main inline figures: {len(doc.inline_shapes)}",
         f"- Main inline tables: {len(doc.tables)}",
         "",

@@ -54,6 +54,10 @@ JOURNAL_META = {
         "name": "Journal of Comparative Policy Analysis",
         "article_type": "Original research article",
     },
+    "evidence_policy": {
+        "name": "Evidence & Policy",
+        "article_type": "Research article",
+    },
 }
 
 # Ordered table keys; filtered to keys present in both the generated frames
@@ -1445,6 +1449,68 @@ COVER_LETTER_BODY = {
             "double-anonymous reviewer archive is included, reproducibility materials "
             "are available at {repo_url}, and I declare no competing interests or "
             "external funding."
+        ),
+    ],
+    "evidence_policy": [
+        (
+            "I submit the research article, \"{title},\" for consideration "
+            "in Evidence & Policy. The manuscript studies a mismatch at the "
+            "centre of the journal's concern: the specificity of research "
+            "evidence and the specificity that policy decisions require of "
+            "it. A decision may need a threshold, a local slope, a turning "
+            "point, or an extrapolated response, while the evidence behind "
+            "it securely identifies only an association. I call the "
+            "resulting condition functional-form dependence and treat it as "
+            "an evidence-use and evidence-translation problem, not a "
+            "property of any single policy field."
+        ),
+        (
+            "This matters to each of the journal's audiences. For "
+            "policymakers and practitioners, the article identifies when a "
+            "credible estimate can still fail to answer the question the "
+            "decision poses. For researchers, it separates what data "
+            "identify from what model assumptions add and what policy users "
+            "infer. For knowledge brokers, it specifies a class of "
+            "uncertainty - about shape, range, and transportability - that "
+            "intermediaries are positioned to surface before it is "
+            "compressed into a portable but over-specific claim."
+        ),
+        (
+            "The design is deliberately cross-domain because the problem is "
+            "cross-domain. A purposive mapping applies one transparent "
+            "diagnostic to 50 named relationships and quantifies an "
+            "evidence-specificity gap; two applications then follow the "
+            "translation chain from evidence to assumed shape to decision "
+            "to consequences: post-Fukushima evacuation under low-dose "
+            "radiation-risk assumptions, and the 2012 Kansas tax reform "
+            "under assumptions about tax-rate-revenue and growth "
+            "responses. Radiation protection and fiscal policy share no "
+            "dataset, institution, or evidentiary tradition, yet the same "
+            "translation problem appears in both - which is the article's "
+            "empirical warrant for treating functional-form dependence as "
+            "general rather than incidental. Both applications are "
+            "calibrated: the linear no-threshold model is not declared "
+            "false, evacuation is not declared definitively wrong, and "
+            "Kansas does not disprove the Laffer curve; what the evidence "
+            "shows is that each decision leaned on a feature of a curve "
+            "that the evidence did not identify."
+        ),
+        (
+            "The practical contribution is an evidence-use checklist for "
+            "appraisal - seven questions asked before evidence justifies a "
+            "policy, covering what the evidence establishes, the feature "
+            "the policy requires, identification in the policy-relevant "
+            "range, transportability, sensitivity to plausible alternative "
+            "shapes, the consequences of the wrong shape, and the scope "
+            "for staging, monitoring, or reversal - offered as a working "
+            "tool for appraisal, not a theory."
+        ),
+        (
+            "The manuscript is original and is not under consideration "
+            "elsewhere. All data are from public sources, an anonymised "
+            "reviewer archive is included, reproducibility materials are "
+            "available at {repo_url}, and I declare no competing "
+            "interests or external funding."
         ),
     ],
 }
