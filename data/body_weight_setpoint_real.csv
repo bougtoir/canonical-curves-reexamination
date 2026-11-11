@@ -1,0 +1,6 @@
+weight_change_pct,observed_minus_predicted_tee_kcal_day,condition
+10,510,10% gain
+0,0,initial weight
+0,-50,return to initial weight
+-10,-290,10% loss
+-20,-300,20% loss

@@ -1,0 +1,48 @@
+pref_code,pref_name,muni_code,muni_name_romaji,reason,years_missing
+03,Iwate,03214,Hachimantai,Population missing in at least one year 2005-2019,2005
+03,Iwate,03215,Oshu,Unit not observed under a single code 2005-2019,2005
+03,Iwate,03216,Takizawa,Unit not observed under a single code 2005-2019,"2005,2006,2007,2008,2009,2010,2011,2012,2013"
+03,Iwate,03366,Nishiwaga,Population missing in at least one year 2005-2019,2005
+03,Iwate,03507,Hirono,Unit not observed under a single code 2005-2019,2005
+04,Miyagi,04101,"Aoba Ward, Sendai",Population missing in at least one year 2005-2019,"2006,2007,2008,2009,2010"
+04,Miyagi,04102,"Miyagino Ward, Sendai",Population missing in at least one year 2005-2019,"2005,2006,2007,2008,2009,2010"
+04,Miyagi,04103,"Wakabayashi Ward, Sendai",Population missing in at least one year 2005-2019,"2005,2006,2007,2008,2009,2010"
+04,Miyagi,04104,"Taihaku Ward, Sendai",Population missing in at least one year 2005-2019,"2005,2006,2007,2008,2009,2010"
+04,Miyagi,04105,"Izumi Ward, Sendai",Population missing in at least one year 2005-2019,"2005,2006,2007,2008,2009,2010"
+04,Miyagi,04203,Shiogama,Population missing in at least one year 2005-2019,"2006,2007"
+04,Miyagi,04212,Tome,Population missing in at least one year 2005-2019,2005
+04,Miyagi,04213,Kurihara,Population missing in at least one year 2005-2019,2005
+04,Miyagi,04214,Higashimatsushima,Population missing in at least one year 2005-2019,2005
+04,Miyagi,04215,Osaki,Unit not observed under a single code 2005-2019,2005
+04,Miyagi,04216,Tomiya,Unit not observed under a single code 2005-2019,"2005,2006,2007,2008,2009,2010,2011,2012,2013,2014,2015,2016"
+04,Miyagi,04302,Shichikashuku,Population missing in at least one year 2005-2019,"2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017"
+04,Miyagi,04404,Shichigahama,Population missing in at least one year 2005-2019,"2007,2008,2009,2010,2011,2012,2013,2014,2015,2016,2017"
+04,Miyagi,04505,Misato,Unit not observed under a single code 2005-2019,2005
+04,Miyagi,04606,Minamisanriku,Population missing in at least one year 2005-2019,2005
+06,Yamagata,06428,Shonai,Population missing in at least one year 2005-2019,2005
+07,Fukushima,07214,Motomiya,Population missing in at least one year 2005-2019,2006
+08,Ibaraki,08230,Kasumigaura,Population missing in at least one year 2005-2019,2006
+08,Ibaraki,08231,Sakuragawa,Population missing in at least one year 2005-2019,2005
+08,Ibaraki,08232,Kamisu,Population missing in at least one year 2005-2019,2005
+08,Ibaraki,08233,Namegata,Population missing in at least one year 2005-2019,2005
+08,Ibaraki,08234,Hokota,Population missing in at least one year 2005-2019,2005
+08,Ibaraki,08235,Tsukubamirai,Unit not observed under a single code 2005-2019,"2005,2006"
+08,Ibaraki,08236,Omitama,Unit not observed under a single code 2005-2019,2005
+09,Tochigi,09215,Nasukarasuyama,Population missing in at least one year 2005-2019,2005
+09,Tochigi,09216,Shimotsuke,Unit not observed under a single code 2005-2019,2005
+09,Tochigi,09411,Nakagawa,Population missing in at least one year 2005-2019,2005
+10,Gunma,10212,Midori,Unit not observed under a single code 2005-2019,2005
+10,Gunma,10429,Higashiazuma,Unit not observed under a single code 2005-2019,2005
+10,Gunma,10449,Minakami,Population missing in at least one year 2005-2019,2005
+15,Niigata,15101,"Kita Ward, Niigata",Unit not observed under a single code 2005-2019,"2005,2006,2007,2008,2009,2010"
+15,Niigata,15102,"Higashi Ward, Niigata",Unit not observed under a single code 2005-2019,"2005,2006,2007,2008,2009,2010"
+15,Niigata,15103,"Chuo Ward, Niigata",Unit not observed under a single code 2005-2019,"2005,2006,2007,2008,2009,2010"
+15,Niigata,15104,"Konan Ward, Niigata",Unit not observed under a single code 2005-2019,"2005,2006,2007,2008,2009,2010"
+15,Niigata,15105,"Akiha Ward, Niigata",Unit not observed under a single code 2005-2019,"2005,2006,2007,2008,2009,2010"
+15,Niigata,15106,"Minami Ward, Niigata",Unit not observed under a single code 2005-2019,"2005,2006,2007,2008,2009,2010"
+15,Niigata,15107,"Nishi Ward, Niigata",Unit not observed under a single code 2005-2019,"2005,2006,2007,2008,2009,2010"
+15,Niigata,15108,"Nishikan Ward, Niigata",Unit not observed under a single code 2005-2019,"2005,2006,2007,2008,2009,2010"
+15,Niigata,15217,Myoko,Population missing in at least one year 2005-2019,2005
+15,Niigata,15227,Tainai,Population missing in at least one year 2005-2019,2005
+15,Niigata,15307,Seiro,Population missing in at least one year 2005-2019,2006
+15,Niigata,15385,Aga,Population missing in at least one year 2005-2019,2005

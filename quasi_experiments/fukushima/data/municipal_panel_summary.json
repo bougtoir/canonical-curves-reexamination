@@ -1,0 +1,26 @@
+{
+  "rows":8657,
+  "prefectures":[
+    "03",
+    "04",
+    "06",
+    "07",
+    "08",
+    "09",
+    "10",
+    "15"
+  ],
+  "year_min":2000,
+  "year_max":2022,
+  "missing_cells":{
+    "pref_code":0,
+    "muni_code":0,
+    "muni_name":0,
+    "year":0,
+    "deaths":4,
+    "births":12,
+    "pop":286,
+    "pop_ref_date":0,
+    "pop_scope":0
+  }
+}
